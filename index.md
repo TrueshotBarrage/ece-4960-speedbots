@@ -5,7 +5,7 @@ write-ups for each lab and a brief description of who I am.
 
 ## Labs
 
-- [Lab 1: Artemis](lab1)
+- [Lab 1: Artemis](1/index.md)
 
 ## Bio
 
