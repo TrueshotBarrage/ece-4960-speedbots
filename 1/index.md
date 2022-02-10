@@ -1,13 +1,13 @@
-## Lab 1
+# Lab 1
 
-### Summary
+## Summary
 
 In this lab, I set up the Arduino IDE to be able to be used with an Artemis
 board. From obtaining and setting up the hardware components to running basic
 programs on the board, the lab allowed me to get some exposure to embedded
 systems that I will be learning to use throughout this class.
 
-### Procedure
+## Procedure
 
 The first step was to install the Arduino IDE. This was simple, as I had already
 worked with Arduino in the past, and as such, I already had the IDE on my
@@ -59,7 +59,7 @@ whistling, the loudest frequency went up much higher.
   <img src="images/pdm.png" />
 </p>
 
-### Conclusion
+## Conclusion
 
 This lab was a fun introduction to the Artemis board and a nice refresher to the
 Arduino IDE. I was able to understand how to program the board, blink the LED on
@@ -74,3 +74,5 @@ able to accomplish a lot of useful tasks.
 - [Artemis board setup
   instructions](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
 - [Arduino website](https://www.arduino.cc/)
+
+[Back to main](../index.md)

@@ -1,9 +1,11 @@
-## Lab 3
+# Lab 3
 
-### Summary
+## Summary
 
-### Procedure
+## Procedure
 
-### Conclusion
+## Conclusion
 
 ## References
+
+[Back to main](../index.md)

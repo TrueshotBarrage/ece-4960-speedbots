@@ -1,6 +1,6 @@
-## Lab 2
+# Lab 2
 
-### Summary
+## Summary
 
 In this lab, I learned to connect to the Artemis board without a wired
 connection. In other words, I had to set up and use Bluetooth for the board so
@@ -8,7 +8,7 @@ that it could communicate with my computer wirelessly! The lab delves into the
 basics of Python on Jupyter Notebook, setting up a Python virtualenv, and
 exploring communication protocols using BLE (Bluetooth Low Energy).
 
-### Procedure
+## Procedure
 
 As stated in the [Summary](#summary), this lab is quite extensive in both
 preparation and the actual lab content, but thankfully, I had previous exposure
@@ -97,7 +97,7 @@ on the Arduino side. It also means that there is room for loss of precision of
 the float value that could occur when casting, in addition to the possibility
 for a casting error, since not all strings will be valid floats.
 
-### Conclusion
+## Conclusion
 
 I learned how to use a non-wired connection to communicate between the Artemis
 board and a computer, which I think is a seriously useful skill that I cannot
@@ -110,3 +110,5 @@ thanks to being wire free!
 ## References
 
 ![BLE methods](images/ble.png)
+
+[Back to main](../index.md)
