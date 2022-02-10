@@ -10,7 +10,7 @@ exploring communication protocols using BLE (Bluetooth Low Energy).
 
 ### Procedure
 
-As stated in the [Summary](#Summary), this lab is quite extensive in both
+As stated in the [Summary](#summary), this lab is quite extensive in both
 preparation and the actual lab content, but thankfully, I had previous exposure
 to most of the setup. First, Python was already installed on my MacBook, so no
 worries there, and I had already installed virtualenv before. So a simple
@@ -22,10 +22,7 @@ change the values of the `connection.yaml` file to match the MAC address of my
 Artemis board.
 
 Finally, I could run through the different cells on Jupyter, which allowed me to
-see the different types of messages that I could communicate over the ArduinoBLE
-library. These types include the conventional int, float, string, etc. but are
-customized for the Arduino BLE library. To learn to use these more proficiently,
-here are the tasks I had to complete:
+start the lab! Here are the tasks I had to complete:
 
 - Sending a string and receiving a modified version of the original string
 - Sending multiple float values
@@ -37,17 +34,30 @@ BLE library in order to make them work. For the first task of transmitting a
 string, I modified the ECHO command to receive the string into a queue and
 return the output back from the queue after modification. Here is how it works:
 
-(some code)
+```cpp
+Serial.print("Robot says -> ");
+Serial.print(tx_estring_value.c_str());
+Serial.println(" :)");
+```
 
-[task1.png](images/task1.png)
+![Task 1](images/task1.png)
 
 For the second task of transmitting multiple float values, the procedure was the
 same as handling a single float value (using `receive_float()`) but invoked
 multiple times. Since we wanted three floats, it was called three times:
 
-(some code)
+```cpp
+success = robot_cmd.get_next_value(float_a);
+...
+Serial.print("Three Floats: ");
+Serial.print(float_a);
+Serial.print(", ");
+Serial.print(float_b);
+Serial.print(", ");
+Serial.println(float_c);
+```
 
-[task2.png](images/task2.png)
+![Task 2](images/task2.png)
 
 The third task took a bit more consideration in order to complete. The main
 issue was figuring out how to set up the notification handler, since it required
@@ -55,9 +65,19 @@ using other library functions that the lab introduced. I also had to figure out
 what sort of callback function was necessary, since the callback requires two
 arguments, but only ends up using one of them:
 
-(code to demonstrate callback function)
+```python
+rx_global_float = 0.0
 
-[task3.png](images/task3.png)
+def store_ble_controller(_, value):
+    global rx_global_float
+    rx_global_float = ble.bytearray_to_float(value)
+
+ble.start_notify(ble.uuid['RX_FLOAT'], store_ble_controller)
+```
+
+<p align="center">
+  <img src="images/task3.gif" />
+</p>
 
 In addition, I had to consider the difference between the following two
 approaches:
@@ -88,3 +108,5 @@ a slightly nicer (and quite a bit more useful) gadget that can do a lot more
 thanks to being wire free!
 
 ## References
+
+![BLE methods](images/ble.png)
