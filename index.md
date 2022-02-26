@@ -8,6 +8,7 @@ write-ups for each lab and a brief description of who I am.
 - [Lab 1: Artemis](1/index.md)
 - [Lab 2: Bluetooth](2/index.md)
 - [Lab 3: Sensors](3/index.md)
+- [Lab 4: Car Characterization](4/index.md)
 
 ## Bio
 
