@@ -27,6 +27,10 @@ In terms of ranging times, I was able to follow the same procedure as the exampl
 Here is a demonstration of both the sensors working together. As mentioned before, setting up the sensors to read properly in tandem was a pain (weeks of effort T_T) but eventually it worked, so here it is:
 
 <p align="center">
+  <img src="images/both_sensors.jpg" />
+</p>
+
+<p align="center">
   <img src="images/tof.gif" />
 </p>
 
@@ -34,10 +38,57 @@ Here is a demonstration of both the sensors working together. As mentioned befor
 
 The IMU presented another soldering project alongside the two ToF sensors. This was much easier because there was no need to reconfigure the I2C address of the IMU. The AD0_VAL definition was set to zero because the jumper is connected.
 
-Once the IMU was configured and I was able to read the values on the serial monitor, I saw the acceleration and gyroscope data change as I flipped, rotated, and moved the board back and forth. This was expected as, well, those are the definitions of the gyroscope and acceleration data.
+Once the IMU was configured and I was able to read the values on the serial monitor, I saw the acceleration and gyroscope data change (as expected) as I flipped, rotated, and moved the board back and forth. Here is the default example data with all the values showing:
+
+<p align="center">
+  <img src="images/imu_default.png" />
+</p>
+
+...and here is when I moved the IMU around:
+
+<p align="center">
+  <img src="images/imu_perturbed.png" />
+</p>
+
+I converted the accelerometer data to pitch and roll using the `math.h` library in C and the `atan2` function. Here are the accelerometer data when the IMU was moved between -90 to 90 degrees:
+
+<p align="center">
+  <img src="images/imu_roll_pitch1.png" />
+</p>
+
+<p align="center">
+  <img src="images/imu_roll_pitch2.png" />
+</p>
+
+As evident by the plots, the accelerometer data are noisy, yet consistent across an average period of some time. Using this fact, I was able obtain accurate results by implementing a complimentary low pass filter for the noise. However, this required analyzing the frequency spectrum when perturbed, so I tried tapping the IMU to see the frequency response:
+
+<p align="center">
+  <img src="images/imu_tap_freq_resp.png" />
+</p>
+
+Using some basic Python scripts for fast Fourier Transform, I was able to see that most of the frequency response averages around 3Hz to 10Hz. This means that an appropriate cutoff frequency for the filter could be chosen around 5Hz. The cutoff frequency simply determines at which frequency all the signals of higher frequencies will be reduced. We do not want to dramatically overreduce the frequency of our signal because it will cut our available data, but I believe 5Hz is a good middle ground. I was able to see less noise overall,
+
+Another useful sensor on our IMU is the gyroscope. Using it, I was able to deduce pitch, roll, and yaw (which was previously unavailable with just the accelerometer). However, the data seem just as noisy as accelerometer data, which was unexpected. As such, it seems less useful than the accelerometer for data, other than to calculate changes in yaw, especially considering using a complimentary filter in addition to the raw accelerometer data. Here is the same rotation of the IMU as before, but with changes in roll, pitch, and yaw observed from the gyroscope data:
+
+<p align="center">
+  <img src="images/imu_gyro.png" />
+</p>
+
+...and here is the filtered version:
+
+<p align="center">
+  <img src="images/imu_filtered_gyro.png" />
+</p>
 
 ## Conclusion
 
+What a long lab this was! Thankfully, I was able to successfully complete the lab. I definitely gained a lot of useful knowledge on embedded systems throughout this lab and how to interface with sensors using serial. I also got hands-on experience on how ToF and IMU sensors work and what types of data they measure.
+
 ## References
+
+- [Lab Handout](https://cei-lab.github.io/ECE4960-2022/Lab3.html)
+- [IMU Lecture](https://cei-lab.github.io/ECE4960-2022/lectures/FastRobots-4-IMU.pdf)
+- [Python Fourier Transform](https://alphabold.com/fourier-transform-in-python-vibration-analysis/)
+- [Python Serial](https://pyserial.readthedocs.io/en/latest/pyserial.html)
 
 [Back to main](../index.md)
