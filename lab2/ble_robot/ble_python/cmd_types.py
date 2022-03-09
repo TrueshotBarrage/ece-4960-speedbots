@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class CMD(Enum):
     PING = 0
     SEND_TWO_INTS = 1
