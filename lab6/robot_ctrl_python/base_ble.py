@@ -15,7 +15,10 @@ if OS_PLATFORM == 'Darwin':
     import objc
     IS_ATLEAST_MAC_OS_12 = objc.macos_available(12, 0)
 
-from utils import setup_logging
+try:
+    from utils import setup_logging
+except ModuleNotFoundError:
+    from .utils import setup_logging
 
 LOG = setup_logging("ble.log")
 

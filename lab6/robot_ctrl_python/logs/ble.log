@@ -1,0 +1,472 @@
+2022-03-09 17:41:39,373 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-09 17:41:39,373 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-09 17:41:39,399 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-09 17:41:39,399 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-09 17:41:39,401 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-09 17:41:39,401 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-09 17:41:43,592 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-09 17:41:43,592 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-09 17:41:44,661 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-09 17:41:44,661 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-09 17:41:44,662 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-09 17:41:44,662 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-09 17:41:44,663 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-3' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-09 17:41:44,663 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-3' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-09 17:42:03,956 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-09 17:42:03,956 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-09 17:42:03,977 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-09 17:42:03,977 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-09 17:42:03,980 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-09 17:42:03,980 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-09 17:42:06,759 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-09 17:42:06,759 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-09 17:42:07,767 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-09 17:42:07,767 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-09 17:42:07,768 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-09 17:42:07,768 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-09 17:42:07,769 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-3' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-09 17:42:07,769 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-3' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-09 17:46:35,561 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-09 17:46:35,561 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-09 17:46:36,939 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-09 17:46:39,682 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-09 17:49:00,458 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-03-09 17:49:32,864 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-09 17:49:41,549 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-09 17:49:41,551 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-09 17:49:41,553 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-09 17:49:47,183 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-09 17:49:47,183 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-09 17:49:48,591 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-09 17:49:51,295 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-09 17:52:27,674 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-09 18:24:23,889 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-09 18:24:23,896 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-09 18:24:23,897 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-15 20:08:22,139 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-15 20:08:22,141 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-15 20:08:24,717 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 20:08:49,393 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 20:08:53,801 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-15 20:12:45,213 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-15 20:15:34,199 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 20:15:37,368 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-15 20:20:41,958 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-03-15 20:22:17,486 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-15 20:22:17,490 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-15 20:22:17,492 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-20' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-15 20:22:55,734 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-15 20:22:55,734 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-15 20:23:08,724 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 20:23:11,779 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-15 20:36:20,484 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-15 20:37:19,004 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-15 20:37:19,008 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-15 20:37:19,009 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-15 20:37:28,116 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-15 20:37:28,117 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-15 20:37:28,924 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 20:37:35,376 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-15 20:39:02,257 | MainThread   | [INFO    ] | <module>            |: IMU Reading: Hello world this is IMU data
+2022-03-15 20:39:34,615 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-15 20:39:38,279 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-15 20:39:38,285 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-15 20:39:38,288 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-15 21:19:35,867 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-15 21:19:35,867 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-15 21:19:36,968 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 21:19:40,174 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-15 21:19:43,428 | MainThread   | [INFO    ] | <module>            |: IMU Reading: Hello world this is IMU data
+2022-03-15 21:20:09,125 | MainThread   | [INFO    ] | <module>            |: IMU Reading: Hello world this is IMU data
+2022-03-15 21:20:12,183 | MainThread   | [INFO    ] | <module>            |: IMU Reading: Hello world this is IMU data
+2022-03-15 22:24:44,285 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-15 22:25:05,317 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:25:08,265 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-15 22:25:17,622 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-15 22:36:50,676 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:37:23,240 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-03-15 22:37:24,246 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-15 22:37:24,247 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:39:48,368 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:40:07,888 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-15 22:40:07,891 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-15 22:40:07,892 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-15 22:40:19,082 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-15 22:40:19,082 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-15 22:40:19,562 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:40:45,911 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:41:18,831 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-03-15 22:41:19,837 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-15 22:41:19,838 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:41:29,791 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-03-15 22:43:07,087 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:43:39,783 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-03-15 22:43:40,789 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-15 22:43:40,790 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:44:13,181 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:44:47,500 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:45:43,735 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:45:55,257 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-03-15 22:45:56,262 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-15 22:45:56,263 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:46:22,420 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:46:55,439 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-03-15 22:46:56,444 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-15 22:46:56,446 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-15 22:47:18,514 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 00:30:59,113 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 00:30:59,115 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 00:30:59,117 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-16 00:31:03,142 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 00:31:03,142 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 01:37:48,209 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:37:50,979 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:42:14,843 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 01:42:14,857 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 01:42:14,860 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-6' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 01:42:18,930 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 01:42:18,930 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 01:42:20,660 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:42:23,935 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:44:10,548 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 01:44:10,551 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 01:44:10,554 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-5' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 01:44:14,389 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 01:44:14,389 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 01:44:14,421 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:44:17,271 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:44:18,437 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 01:44:18,439 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 01:44:18,441 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-5' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 01:44:24,364 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 01:44:24,364 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 01:44:25,006 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:44:27,841 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:48:58,814 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 01:48:58,817 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 01:48:58,819 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-8' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 01:49:02,796 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 01:49:02,797 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 01:49:03,398 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:49:06,198 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:49:12,497 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.144,0.50,0.951,0.0,0.1,0.0,1.961,0.667,1.720,0.28
+2022-03-16 01:49:15,587 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.167,0.61,0.939,0.0,0.1,0.2,1.959,0.666,1.720,0.28
+2022-03-16 01:49:28,435 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 01:49:40,728 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:49:43,607 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:49:50,056 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.139,0.57,0.947,0.1,0.2,0.0,1.960,0.666,1.721,0.28
+2022-03-16 01:49:53,146 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.146,0.53,0.940,0.2,0.0,0.0,1.960,0.667,1.721,0.28
+2022-03-16 01:50:01,816 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.146,0.53,0.940,0.2,0.0,0.0,1.960,0.667,1.721,0.28
+2022-03-16 01:50:04,951 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.155,0.53,0.928,0.0,0.1,0.0,1.960,0.666,1.720,0.28
+2022-03-16 01:52:08,508 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.160,0.75,0.954,0.2,0.1,0.1,1.961,0.667,1.720,0.28
+2022-03-16 01:52:11,598 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.139,0.56,0.950,0.1,0.2,0.2,1.960,0.666,1.720,0.28
+2022-03-16 01:53:43,672 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 01:53:55,415 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:54:07,717 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:54:11,299 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:54:46,310 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 01:57:27,140 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 01:57:31,204 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 01:58:04,776 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 02:06:31,588 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 02:06:34,998 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 02:07:12,500 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 02:13:46,012 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 02:13:48,911 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 02:14:18,628 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 02:14:23,716 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 02:14:26,438 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 02:15:00,895 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 08:58:04,867 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 08:58:08,743 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 08:58:31,865 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 09:16:46,089 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 09:16:48,813 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 09:17:54,501 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 09:34:57,804 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 09:35:00,493 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 09:36:13,037 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 09:36:43,531 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 09:36:46,960 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 09:41:59,210 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 09:45:45,212 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 09:45:48,155 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 09:46:29,541 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.248,0.361,0.866,0.0,0.2,0.2,1.695,1.599,1.568,0.24
+2022-03-16 09:46:32,690 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.254,0.356,0.854,0.3,0.0,0.2,1.696,1.599,1.565,0.24
+2022-03-16 09:47:04,266 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.254,0.356,0.854,0.3,0.0,0.2,1.696,1.599,1.565,0.24
+2022-03-16 09:47:07,430 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.255,0.371,0.856,0.0,0.2,0.1,1.694,1.598,1.565,0.24
+2022-03-16 09:59:34,769 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 09:59:34,782 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 09:59:34,786 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-137' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 09:59:41,960 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 09:59:41,960 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 09:59:42,558 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 09:59:45,659 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 09:59:54,959 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.251,0.361,0.853,0.1,0.0,0.1,1.690,1.591,1.560,0.26
+2022-03-16 10:00:04,950 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.252,0.354,0.861,0.1,0.0,0.4,1.691,1.591,1.561,0.26
+2022-03-16 10:00:11,804 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.252,0.354,0.861,0.1,0.0,0.4,1.691,1.591,1.561,0.26
+2022-03-16 10:00:36,184 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 10:00:36,185 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 10:00:41,881 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:00:45,357 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:00:51,012 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.258,0.363,0.860,0.0,0.2,0.0,1.690,1.591,1.559,0.25
+2022-03-16 10:01:09,298 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.260,0.364,0.853,0.1,0.0,0.0,1.691,1.591,1.559,0.26
+2022-03-16 10:01:56,534 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 10:01:56,539 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 10:01:56,550 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-718' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 10:02:03,406 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 10:02:03,406 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 10:02:03,711 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:02:08,411 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:02:41,054 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 10:02:41,057 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 10:02:41,058 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-8' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 10:02:49,711 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 10:02:49,712 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 10:02:50,297 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:02:53,958 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:03:26,387 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 10:03:26,395 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 10:03:26,397 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-7' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 10:03:30,955 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 10:03:30,955 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 10:03:31,530 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:03:34,566 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:03:42,666 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.261,0.347,0.865,0.2,0.3,0.2,1.757,1.619,1.608,0.26
+2022-03-16 10:03:45,771 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.264,0.345,0.858,0.0,0.4,0.2,1.758,1.618,1.608,0.26
+2022-03-16 10:09:40,443 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 10:24:06,328 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:24:09,087 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:24:13,030 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 10:24:13,041 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 10:24:13,044 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-45' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 10:24:16,968 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 10:24:16,968 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 10:24:17,733 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:24:20,428 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:24:55,393 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.244,0.348,0.858,0.1,0.0,0.2,1.741,1.579,1.658,0.27
+2022-03-16 10:24:56,518 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.162,0.372,0.863,0.1,0.1,0.0,1.757,1.645,1.656,0.27
+2022-03-16 10:28:23,810 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 10:32:14,403 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 10:32:14,405 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 10:32:14,407 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-16 10:32:18,493 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 10:32:18,493 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 10:32:19,126 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:32:22,072 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:32:29,047 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.268,0.351,0.856,0.2,0.3,0.2,0.462,1.339,0.985,0.27
+2022-03-16 10:32:30,173 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.610,0.323,0.825,0.9,0.5,0.2,0.470,1.346,0.976,0.28
+2022-03-16 10:35:12,130 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.610,0.323,0.825,0.9,0.5,0.2,0.470,1.346,0.976,0.28
+2022-03-16 10:35:13,285 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.53,0.13,-1.925,0.17,0.28,0.16,0.562,1.704,1.211,0.28
+2022-03-16 10:35:42,988 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 10:36:13,714 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 10:36:16,796 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 10:36:30,236 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.166,0.116,0.941,0.2,0.0,0.0,1.120,1.116,1.565,0.28
+2022-03-16 10:36:31,377 | MainThread   | [INFO    ] | <module>            |: IMU Reading: 0.467,0.87,-1.492,0.71,0.44,0.64,1.58,1.251,1.559,0.28
+2022-03-16 10:37:55,281 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 11:58:14,738 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 11:58:14,748 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 11:58:14,751 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-16 11:58:18,754 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 11:58:18,755 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 11:58:20,581 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 11:58:24,415 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 12:09:12,695 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 12:09:12,704 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 12:09:12,708 | MainThread   | [WARNING ] | exit_handler        |: Task <Task pending name='Task-15' coro=<BLEAsyncDevice._disconnect() running at /Users/trueshot/Documents/git/fast-robots/lab6/robot_ctrl_python/base_ble.py:105>> got Future <Future pending> attached to a different loop
+2022-03-16 12:09:22,877 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 12:09:22,878 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 12:09:23,461 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 12:09:59,149 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 12:10:03,993 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 12:13:28,569 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 14:48:16,791 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 14:48:16,796 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 14:48:16,797 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-16 14:49:15,327 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 14:49:15,328 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 14:49:16,115 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 14:49:26,465 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 14:49:46,076 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 14:49:55,761 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 14:49:59,914 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 15:58:02,163 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 16:23:49,792 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-16 16:23:49,802 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-16 16:23:49,803 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-16 16:23:54,227 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-16 16:23:54,227 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-16 16:23:56,240 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:24:17,404 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:24:21,104 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 16:25:07,443 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 16:26:18,326 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:26:28,550 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 16:26:45,653 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 16:40:44,373 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:40:52,678 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-03-16 16:45:19,692 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:45:52,608 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-03-16 16:45:53,614 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-16 16:45:53,615 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:50:20,535 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:50:23,717 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-03-16 16:50:24,722 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-16 16:50:24,724 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:50:31,554 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 16:51:16,632 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-16 16:51:21,654 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-16 16:51:26,701 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-16 16:52:02,807 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:44:00,794 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:44:05,865 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:44:44,575 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:44:50,442 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:44:55,926 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:46:05,987 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:47:22,639 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:47:32,966 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:48:11,607 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:48:19,610 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:48:29,678 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:48:59,715 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:49:05,246 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:49:16,093 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:49:49,821 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:49:52,703 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:50:02,548 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:52:43,928 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:53:11,250 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:53:21,988 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:54:17,702 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:54:44,074 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:54:48,788 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:55:36,069 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:55:41,311 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:55:46,164 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 10:56:17,653 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 10:56:20,791 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 10:56:25,640 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:05:56,159 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:06:22,689 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:06:26,871 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:08:27,043 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:08:49,775 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:08:53,471 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:09:06,104 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:13:08,544 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:13:13,199 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:13:48,256 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:18:48,740 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:18:53,037 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:19:08,399 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:23:20,889 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:23:43,842 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:23:55,949 | MainThread   | [ERROR   ] | _connect            |: 
+2022-03-17 11:23:56,958 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-17 11:23:56,959 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:24:09,027 | MainThread   | [ERROR   ] | _connect            |: 
+2022-03-17 11:24:10,031 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-03-17 11:24:10,032 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:24:14,769 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:28:07,251 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:28:48,707 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:28:52,602 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:31:17,701 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:32:08,450 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:32:12,338 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:33:05,845 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:33:10,656 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:33:15,534 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:47:44,264 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:49:28,919 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:49:32,782 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:50:34,456 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:50:41,704 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:50:45,789 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 11:51:03,345 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 11:51:08,912 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 11:51:12,782 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 12:01:12,994 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:13:28,654 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:13:32,566 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:15:12,320 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:16:20,400 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:16:25,163 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:17:00,749 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:17:07,868 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:17:11,517 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:28:33,658 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:29:43,387 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:29:48,309 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:30:42,941 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:30:47,509 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:30:51,639 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:36:56,899 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:37:57,094 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:38:01,428 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:39:41,937 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:40:02,364 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:40:07,055 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:40:20,408 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 13:40:53,919 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:41:12,045 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 13:41:14,760 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 13:42:11,403 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:04:16,692 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:04:21,080 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:06:53,964 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:07:25,107 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:07:31,575 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:09:22,854 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:12:04,360 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:12:07,912 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:15:07,801 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:16:36,497 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:16:40,163 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:18:08,342 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:19:22,874 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:19:26,797 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:21:25,246 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:21:58,170 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:22:02,968 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:24:57,665 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:25:47,066 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:25:52,047 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:27:26,266 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:27:33,493 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:27:49,896 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:27:53,829 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:28:36,086 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:29:09,047 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:29:13,068 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:30:02,332 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:30:28,784 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:30:33,313 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:33:37,608 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:34:22,408 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:34:26,005 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:35:51,944 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:38:24,236 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:38:28,313 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:39:40,662 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:40:11,445 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:40:15,174 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:41:32,772 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:42:21,725 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:42:25,776 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:45:13,958 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-03-17 14:45:22,202 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:45:37,487 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:45:41,708 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:46:26,104 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-03-17 14:46:30,355 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:46:37,249 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:46:41,130 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:47:07,432 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 14:53:41,236 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-17 14:53:45,683 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-03-17 14:55:32,473 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from 52193D96-8201-1734-7C37-789D2C19BBD9
+2022-03-17 17:20:03,034 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-03-17 17:20:03,114 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-17 17:20:03,141 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device

@@ -1,5 +1,9 @@
-from base_ble import *
+try:
+    from base_ble import *
+except ModuleNotFoundError:
+    from .base_ble import *
 import atexit
+import os
 
 GLOBAL_BLE_DEVICE = None
 
@@ -10,7 +14,8 @@ def get_ble_controller():
         GLOBAL_BLE_DEVICE.reload_config()
         return GLOBAL_BLE_DEVICE
     else:
-        GLOBAL_BLE_DEVICE = ArtemisBLEController()
+        config_file = os.path.join(os.path.dirname(__file__), "connection.yaml")
+        GLOBAL_BLE_DEVICE = ArtemisBLEController(config=config_file)
         return GLOBAL_BLE_DEVICE
 
 
@@ -151,7 +156,7 @@ class ArtemisBLEController(BaseBLEController):
     def receive_string(self, uuid):
         return self.bytearray_to_string(self.read(uuid))
 
-    def send_command(self, cmd_type, data):
+    def send_command(self, cmd_type, data=""):
         cmd_string = str(cmd_type.value) + ":" + str(data)
 
         if len(cmd_string) < self.max_write_length:
