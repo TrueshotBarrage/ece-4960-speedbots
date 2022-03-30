@@ -10,6 +10,7 @@ write-ups for each lab and a brief description of who I am.
 - [Lab 3: Sensors](3/index.md)
 - [Lab 4: Car Characterization](4/index.md)
 - [Lab 5: Open Loop Control](5/index.md)
+- [Lab 6: PID Speed Control](6/index.md)
 
 ## Bio
 
