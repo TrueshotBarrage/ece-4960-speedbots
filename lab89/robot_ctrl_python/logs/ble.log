@@ -1,0 +1,9 @@
+2022-03-30 16:43:15,354 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-03-30 16:43:15,360 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-03-30 16:43:19,325 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=9, micro=9, releaselevel='final', serial=0)
+2022-03-30 16:43:19,325 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-03-30 16:43:26,131 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-03-30 16:43:39,207 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-04-01 16:04:32,887 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-04-01 16:04:32,940 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-04-01 16:04:32,942 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device

@@ -1,0 +1,12 @@
+artemis_address: "C0:83:A5:6D:02:3C"
+
+ble_service: "4a7c2101-7d65-4814-81a2-7df8ecf23609"
+
+characteristics:
+  TX_CMD_STRING: "9750f60b-9c9c-4158-b620-02ec9521cd99"
+  RX_BLE_RUNTIME: "715c9b74-a522-42c6-97e1-28ecf033bc9b"
+
+  RX_TOF_RIGHT: "2f5c6dcc-0121-4b44-90f4-4685acb8e181"
+  RX_TOF_FRONT: "07565624-13ef-4780-afee-bd3b38082505"
+  RX_IMU: "213290bb-fc80-4269-90b7-65ce2155dee4"
+  RX_SPEED: "f3814c37-d7f0-4e48-ae13-a07a8b163b6c"
