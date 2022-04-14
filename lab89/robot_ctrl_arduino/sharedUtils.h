@@ -22,6 +22,7 @@ float tx_tof_f_value = 0.0;
 float tx_tof_r_value = 0.0;
 int motorPWM = 0;
 EString tx_imu_value;
+EString tx_sensor_value;
 
 // Motor control definitions
 #define LEFT 0
@@ -32,13 +33,19 @@ EString tx_imu_value;
 
 void drive(int direction, int speed);
 
-// Used to control if PID controller is running for stopping 300mm from the 
+// Used to control if PID controller is running for stopping 300mm from the
 // front wall
 bool pid_running = false;
 
 // Used for running the drive functions without powering the motors
 bool debug_mode = false;
 
+bool stunt_running = false;
+bool spin_running = false;
+
 void resetPID();
 void driveWithPID();
 void writeSpeedToBLE();
+
+void stunt();
+void spin360(int* i);

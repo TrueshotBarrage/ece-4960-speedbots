@@ -13,6 +13,7 @@
 #define BLE_UUID_TX_TOF_RIGHT "2F5C6DCC-0121-4B44-90F4-4685ACB8E181"
 #define BLE_UUID_TX_TOF_FRONT "07565624-13EF-4780-AFEE-BD3B38082505"
 #define BLE_UUID_TX_IMU "213290BB-FC80-4269-90B7-65CE2155DEE4"
+#define BLE_UUID_TX_SENSOR "303FCA3B-E528-4FFD-AEE0-B531AC1670E0"
 #define BLE_UUID_TX_SPEED "F3814C37-D7F0-4E48-AE13-A07A8B163B6C"
 //////////// BLE UUIDs ////////////
 
@@ -20,10 +21,11 @@
 BLEService bleService(BLE_UUID_SERVICE);
 BLECStringCharacteristic cmd_string(BLE_UUID_RX_CMD, BLEWrite, MAX_MSG_SIZE);
 BLEFloatCharacteristic runtime(BLE_UUID_TX_TIME, BLERead | BLENotify);
-
 BLEFloatCharacteristic tx_tof_r(BLE_UUID_TX_TOF_RIGHT, BLERead | BLENotify);
 BLEFloatCharacteristic tx_tof_f(BLE_UUID_TX_TOF_FRONT, BLERead | BLENotify);
 BLECStringCharacteristic tx_imu(BLE_UUID_TX_IMU, BLERead | BLENotify,
+                                MAX_MSG_SIZE);
+BLECStringCharacteristic tx_sensor(BLE_UUID_TX_SENSOR, BLERead | BLENotify, 
                                 MAX_MSG_SIZE);
 BLEIntCharacteristic tx_speed(BLE_UUID_TX_SPEED, BLERead | BLENotify);
 
@@ -47,7 +49,9 @@ enum CommandTypes
   MOVE_STOP,
   START_PID_300MM,
   STOP_PID_300MM,
-  TOGGLE_DEBUG
+  TOGGLE_DEBUG,
+  STUNT,
+  SPIN_360,
 };
 
 void appendWithComma(EString *str, float val)
@@ -64,17 +68,52 @@ EString packIMUDataIntoEString(ICM_20948_I2C *imu)
   EString data;
   data.clear();
 
-  float accX = imu->accX() / 1000;
-  float accY = imu->accY() / 1000;
-  float accZ = imu->accZ() / 1000;
-  float gyrX = imu->gyrX() / 1000;
-  float gyrY = imu->gyrY() / 1000;
-  float gyrZ = imu->gyrZ() / 1000;
-  float magX = imu->magX() / 1000;
-  float magY = imu->magY() / 1000;
-  float magZ = imu->magZ() / 1000;
-  float temp = imu->temp() / 1000;
+  float accX = imu->accX();
+  float accY = imu->accY();
+  float accZ = imu->accZ();
+  float gyrX = imu->gyrX();
+  float gyrY = imu->gyrY();
+  float gyrZ = imu->gyrZ();
+  float magX = imu->magX();
+  float magY = imu->magY();
+  float magZ = imu->magZ();
+  float temp = imu->temp();
 
+  appendWithComma(&data, accX);
+  appendWithComma(&data, accY);
+  appendWithComma(&data, accZ);
+  appendWithComma(&data, gyrX);
+  appendWithComma(&data, gyrY);
+  appendWithComma(&data, gyrZ);
+  appendWithComma(&data, magX);
+  appendWithComma(&data, magY);
+  appendWithComma(&data, magZ);
+  appendWithComma(&data, temp);
+
+  return data;
+}
+
+EString packSensorDataIntoEString(ICM_20948_I2C *imu, float tof1, float tof2)
+{
+  EString data;
+  data.clear();
+
+  float accX = imu->accX();
+  float accY = imu->accY();
+  float accZ = imu->accZ();
+  float gyrX = imu->gyrX();
+  float gyrY = imu->gyrY();
+  float gyrZ = imu->gyrZ();
+  float magX = imu->magX();
+  float magY = imu->magY();
+  float magZ = imu->magZ();
+  float temp = imu->temp();
+
+  // TOF
+  appendWithComma(&data, tof1);
+  appendWithComma(&data, tof2);
+
+  // IMU
   appendWithComma(&data, accX);
   appendWithComma(&data, accY);
   appendWithComma(&data, accZ);
@@ -141,6 +180,22 @@ void writeTOFDataToBLE()
   // Write the readings into the appropriate characteristics
   tx_tof_f.writeValue(tx_tof_f_value);
   tx_tof_r.writeValue(tx_tof_r_value);
+}
+
+void writeSensorDataToBLE()
+{
+  // TOF
+  tx_tof_f_value = getTOFData(0);
+  tx_tof_r_value = getTOFData(1);
+
+  // IMU
+  myICM.getAGMT();
+
+  // Write sensor data into a string, separated by commas - TOFR, TOFF, IMU in order
+  tx_sensor_value = packSensorDataIntoEString(&myICM, tx_tof_r_value, tx_tof_f_value);
+
+  // Write the sensor data string to the characteristic
+  tx_sensor.writeValue(tx_sensor_value.c_str());
 }
 
 void writeSpeedToBLE()
@@ -304,6 +359,20 @@ void handleCommand()
     break;
   }
 
+  case STUNT:
+  {
+    Serial.println("Stunt mode activated");
+    stunt_running = true;
+    break;
+  }
+
+  case SPIN_360:
+  {
+    Serial.println("Spinning 360 degrees");
+    spin_running = true;
+    break;
+  }
+
   /*
    * The default case may not capture all types of invalid commands.
    * It is safer to validate the command string on the central device (in
@@ -335,6 +404,7 @@ void setupBLE()
   bleService.addCharacteristic(tx_tof_r);
   bleService.addCharacteristic(tx_tof_f);
   bleService.addCharacteristic(tx_imu);
+  bleService.addCharacteristic(tx_sensor);
   bleService.addCharacteristic(tx_speed);
 
   // Add BLE service
@@ -343,15 +413,6 @@ void setupBLE()
   // Set initial values to prevent errors when reading for the first time on
   // central devices
   runtime.setValue(ble_runtime_value);
-  // tx_tof_r.writeValue(tx_tof_r_value);
-  // tx_tof_f.writeValue(tx_tof_f_value);
-
-  // Clear the contents of the EString before using it
-  // tx_imu_value.clear();
-  // tx_imu_value.append("Hello world this is IMU data");
-
-  // Write the value to the characteristic
-  // tx_imu.writeValue(tx_imu_value.c_str());
 
   // Output MAC Address
   Serial.print("[Apollo] Advertising BLE with MAC: ");
@@ -392,16 +453,27 @@ void checkForConnections()
     Serial.print("Connected to: ");
     Serial.println(central.address());
 
+    // Keeps track of the iteration count of spin360.
+    int iteration = 0;
+    
     // While central is connected
     while (central.connected())
     {
       trackRuntime();
       readCommand();
-      writeIMUDataToBLE();
-      writeTOFDataToBLE();
+//      writeIMUDataToBLE();
+//      writeTOFDataToBLE();
+      writeSensorDataToBLE();
       if (pid_running)
       {
         driveWithPID();
+      }
+      else if (stunt_running)
+      {
+        stunt();
+      }
+      else if (spin_running) {
+        spin360(&iteration);
       }
       delay(10);
     }

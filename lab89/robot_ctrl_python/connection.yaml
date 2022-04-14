@@ -9,4 +9,5 @@ characteristics:
   RX_TOF_RIGHT: "2f5c6dcc-0121-4b44-90f4-4685acb8e181"
   RX_TOF_FRONT: "07565624-13ef-4780-afee-bd3b38082505"
   RX_IMU: "213290bb-fc80-4269-90b7-65ce2155dee4"
+  RX_SENSOR: "303fca3b-e528-4ffd-aee0-b531ac1670e0"
   RX_SPEED: "f3814c37-d7f0-4e48-ae13-a07a8b163b6c"

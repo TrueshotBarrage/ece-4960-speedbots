@@ -13,3 +13,5 @@ class CMD(Enum):
     START_PID_300MM = 7
     STOP_PID_300MM = 8
     TOGGLE_DEBUG = 9
+    STUNT = 10
+    SPIN_360 = 11

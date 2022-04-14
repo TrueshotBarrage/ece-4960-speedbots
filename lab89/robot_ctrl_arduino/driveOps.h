@@ -1,35 +1,49 @@
 #include "sharedUtils.h"
 
-double input;
-
 void stunt()
 {
-  input = tx_tof_f_value; // Front TOF sensor reading (mm)
-  if (input > 500)
+  if (tx_tof_f_value > 500)
   {
-    drive(FORWARD, 200);
-    stunt();
+//    drive(FORWARD, 100);
+    Serial.print("Driving forward as front TOF: ");
+    Serial.println(tx_tof_f_value);
   }
   else
   {
-    drive(BACKWARD, 200);
-    delay(50);
-    drive(STOP, 0);
-    delay(200);
-    drive(FORWARD, 200);
-    delay(100);
-    drive(STOP, 0);
+    Serial.println("Jump!");
+//    drive(BACKWARD, 100);
+//    delay(50);
+//    drive(STOP, 0);
+//    delay(200);
+//    drive(FORWARD, 100);
+//    delay(100);
+//    drive(STOP, 0);
+    stunt_running = false;
   }
 }
 
 // May require testing to adjust values to do an actual 360
-void spin360()
+void spin360(int* i)
 {
-  for (int i = 0; i < 14; i++)
+  float angV = myICM.gyrZ();
+
+  // PID
+  float kp = 1.0;
+  float err = angV - 15;
+  int speed = (int)(108 - kp * err);
+  
+  if (*i < 14)
   {
-    drive(RIGHT, 100);
+    drive(RIGHT, speed);
     delay(200);
     drive(STOP, 0);
-    delay(500);
+    delay(300);
+    (*i)++;
+  }
+  else
+  {
+    drive(STOP, 0);
+    spin_running = false;
+    *i = 0;
   }
 }

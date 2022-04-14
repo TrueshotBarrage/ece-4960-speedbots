@@ -14,11 +14,15 @@ LOG.propagate = False
 tof_r_uuid_key = "RX_TOF_RIGHT"
 tof_f_uuid_key = "RX_TOF_FRONT"
 imu_uuid_key = "RX_IMU"
+sensor_uuid_key = "RX_SENSOR"
 runtime_uuid_key = "RX_BLE_RUNTIME"
 speed_uuid_key = "RX_SPEED"
 
 
-class IMUSensorReading(NamedTuple):
+# NamedTuple class for sensor data. Combines TOF and IMU data
+class SensorReading(NamedTuple):
+    distR: float
+    distF: float
     accX: float
     accY: float
     accZ: float
@@ -31,30 +35,31 @@ class IMUSensorReading(NamedTuple):
     temp: float
 
 
-def decode_imu_data(imu_data: str):
-    return IMUSensorReading(*map(float, imu_data.split(',')))
+# Decodes sensor (comma-separated string) data into a SensorReading tuple
+def decode_sensor_data(sensor_data: str):
+    return SensorReading(*map(float, sensor_data.split(',')))
 
 
-# Returns a deque of IMU sensor reading tuples from the original unformatted data
-def decode_imu_deque(dq):
+# Returns a deque of sensor reading tuples from the original unformatted data
+def decode_sensor_deque(dq):
     new_deque = deque(maxlen=dq.maxlen)
-    for imu_data, time in dq:
-        new_deque.append((decode_imu_data(imu_data), time))
+    for sensor_data, time in dq:
+        new_deque.append((decode_sensor_data(sensor_data), time))
     return new_deque
 
 
-def plot_time_series_data(ndarr):
-    cols = [
-        "time", "speed", "dist_r", "dist_f", "acc_x", "acc_y", "acc_z", "gyr_x",
-        "gyr_y", "gyr_z", "mag_x", "mag_y", "mag_z", "temp"
-    ]
-    df = pd.DataFrame(ndarr, columns=cols)
-    df.plot(x=cols[0], y=cols[1:], marker="o")  #.interpolate(method="linear")
+# Generates a plot of the sensor data numpy array
+def plot_sensor_data(ndarr):
+    # cols = ["time", "dist_f", "gyr_z"]
+    cols = ["time", "gyr_z"]
+    # df = pd.DataFrame(ndarr[:, [0, 2, 8]], columns=cols)
+    df = pd.DataFrame(ndarr[:, [0, 8]], columns=cols)
+    df.plot(x=cols[0], y=cols[1:], marker="o")
     plt.show()
 
 
 class RobotControl():
-    # Initialize Function
+
     def __init__(self, ble, max_length=300):
         self.ble = ble
         self.max_length = max_length
@@ -64,6 +69,7 @@ class RobotControl():
         self.latest_right_tof_reading = None
         self.latest_front_tof_reading = None
         self.latest_imu_reading = None
+        self.latest_sensor_reading = None
         self.latest_speed_reading = None
 
         # Deques to store the history of all the sensor values
@@ -71,12 +77,12 @@ class RobotControl():
         self.right_tof_readings = deque(maxlen=max_length)
         self.front_tof_readings = deque(maxlen=max_length)
         self.imu_readings = deque(maxlen=max_length)
+        self.sensor_readings = deque(maxlen=max_length)
         self.speed_readings = deque(maxlen=max_length)
 
-        # self.sensor_dict = {}
         self.sensor_arr = None
 
-        # Activate notifications (if required)
+        # Activate notifications for each characteristic
         self.setup_notify()
 
     # A function to activate notifications for the sensor readings.
@@ -89,17 +95,22 @@ class RobotControl():
                               self.front_tof_callback_handler)
         self.ble.start_notify(self.ble.uuid[imu_uuid_key],
                               self.imu_callback_handler)
+        self.ble.start_notify(self.ble.uuid[sensor_uuid_key],
+                              self.sensor_callback_handler)
         self.ble.start_notify(self.ble.uuid[speed_uuid_key],
                               self.speed_callback_handler)
         # self.ble.start_notify(self.ble.uuid[runtime_uuid_key],
         #                       self.runtime_callback_handler)
 
     def start_recording(self):
-        self.right_tof_readings = self.front_tof_readings = \
-        self.imu_readings = self.speed_readings = deque(maxlen=self.max_length)
+        # self.right_tof_readings = deque(maxlen=self.max_length)
+        # self.front_tof_readings = deque(maxlen=self.max_length)
+        # self.imu_readings = deque(maxlen=self.max_length)
+        self.sensor_readings = deque(maxlen=self.max_length)
+        # self.speed_readings = deque(maxlen=self.max_length)
 
     def stop_recording(self):
-        self.log_data()
+        self.log_sensor_data()
 
     # Callback handlers for storing the history of the sensors
     def right_tof_callback_handler(self, uuid, byte_array):
@@ -127,6 +138,15 @@ class RobotControl():
         # Append a tuple (value, time) to the IMU readings deque
         self.imu_readings.append((self.latest_imu_reading,
                                   str(round(time.time() - self.start_time, 1))))
+
+    def sensor_callback_handler(self, uuid, byte_array):
+        # Receive the latest sensor reading as a byte array
+        self.latest_sensor_reading = self.ble.bytearray_to_string(byte_array)
+
+        # Append a tuple (value, time) to the sensor readings deque
+        self.sensor_readings.append((self.latest_sensor_reading,
+                                     str(round(time.time() - self.start_time,
+                                               3))))
 
     def speed_callback_handler(self, uuid, byte_array):
         # Receive the latest speed reading as a byte array
@@ -186,50 +206,33 @@ class RobotControl():
     def toggle_debug(self):
         self.ble.send_command(CMD.TOGGLE_DEBUG)
 
-    def log_data(self):
-        # First, generate a set of all the times
-        time_set = set()
-        combined_sensor_readings = [
-            self.speed_readings, self.right_tof_readings,
-            self.front_tof_readings,
-            decode_imu_deque(self.imu_readings)
-        ]
-        for sensor in combined_sensor_readings:
-            for reading in sensor:
-                time_set.add(float(reading[1]))
+    # Log the sensor data into a numpy array
+    def log_sensor_data(self):
+        sensor_arr = np.zeros((len(self.sensor_readings), 13))
 
-        # Then, sort the set and convert it to an array and a mapping to indices
-        time_arr = np.array(sorted(time_set))
-        t_to_i = {time: i for i, time in enumerate(time_arr)}
-
-        # Finally, generate a list of sensor readings for each time
-        sensor_arr = np.full((len(time_arr), 14), np.nan)
-        sensor_arr[:, 0] = time_arr
-
-        for c, sensor in enumerate(combined_sensor_readings):
-            for reading, t in sensor:
-                t = float(t)
-                if type(reading) == IMUSensorReading:
-                    sensor_arr[t_to_i[t], c + 1] = reading.accX
-                    sensor_arr[t_to_i[t], c + 2] = reading.accY
-                    sensor_arr[t_to_i[t], c + 3] = reading.accZ
-                    sensor_arr[t_to_i[t], c + 4] = reading.gyrX
-                    sensor_arr[t_to_i[t], c + 5] = reading.gyrY
-                    sensor_arr[t_to_i[t], c + 6] = reading.gyrZ
-                    sensor_arr[t_to_i[t], c + 7] = reading.magX
-                    sensor_arr[t_to_i[t], c + 8] = reading.magY
-                    sensor_arr[t_to_i[t], c + 9] = reading.magZ
-                    sensor_arr[t_to_i[t], c + 10] = reading.temp
-                else:
-                    sensor_arr[t_to_i[t], c + 1] = reading
+        for i, (reading,
+                t) in enumerate(decode_sensor_deque(self.sensor_readings)):
+            t = float(t)
+            sensor_arr[i, 0] = t
+            sensor_arr[i, 1] = reading.distR
+            sensor_arr[i, 2] = reading.distF
+            sensor_arr[i, 3] = reading.accX
+            sensor_arr[i, 4] = reading.accY
+            sensor_arr[i, 5] = reading.accZ
+            sensor_arr[i, 6] = reading.gyrX
+            sensor_arr[i, 7] = reading.gyrY
+            sensor_arr[i, 8] = reading.gyrZ
+            sensor_arr[i, 9] = reading.magX
+            sensor_arr[i, 10] = reading.magY
+            sensor_arr[i, 11] = reading.magZ
+            sensor_arr[i, 12] = reading.temp
 
         self.sensor_arr = sensor_arr
         return sensor_arr
 
-    # Requires testing by hand to adjust values
     def spin_360(self):
-        for i in range(14):
-            self.rotate_right(100)
-            time.sleep(0.5)
-            self.stop()
-            time.sleep(0.5)
+        self.ble.send_command(CMD.SPIN_360)
+        self.start_recording()  # Must call stop_recording() after the spin stops
+
+    def stunt(self):
+        self.ble.send_command(CMD.STUNT)

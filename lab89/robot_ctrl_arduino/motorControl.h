@@ -1,11 +1,17 @@
 #include "sharedUtils.h"
 
-#define A1_LT_DR A0 // Left motor driver A1
-#define A2_LT_DR A1 // Left motor driver A2
-#define A1_RT_DR A2 // Right motor driver A1
-#define A2_RT_DR A3 // Right motor driver A2
+//#define A1_LT_DR A0 // Left motor driver A1
+//#define A2_LT_DR A1 // Left motor driver A2
+//#define A1_RT_DR A2 // Right motor driver A1
+//#define A2_RT_DR A3 // Right motor driver A2
 
-#define CALIBRATION_FACTOR 1.0 // Right motor speed adjustment factor
+// These are Kirstin's car values!
+#define A1_LT_DR A5 // Left motor driver A1
+#define A2_LT_DR 4 // Left motor driver A2
+#define A1_RT_DR 7 // Right motor driver A1
+#define A2_RT_DR 6 // Right motor driver A2
+
+#define CALIBRATION_FACTOR 0.9 // Right motor speed adjustment factor
 
 void setupMotorControl()
 {
