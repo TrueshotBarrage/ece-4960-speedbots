@@ -11,6 +11,9 @@ write-ups for each lab and a brief description of who I am.
 - [Lab 4: Car Characterization](4/index.md)
 - [Lab 5: Open Loop Control](5/index.md)
 - [Lab 6: PID Speed Control](6/index.md)
+- Lab 7: Kalman Filter
+- Lab 8: Stunts!
+- [Lab 9: Mapping](9/index.md)
 
 ## Bio
 
