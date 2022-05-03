@@ -14,6 +14,8 @@ write-ups for each lab and a brief description of who I am.
 - Lab 7: Kalman Filter
 - Lab 8: Stunts!
 - [Lab 9: Mapping](9/index.md)
+- [Lab 10: Simulator](10/index.md)
+- [Lab 11: Localization (sim)](11/index.md)
 
 ## Bio
 
