@@ -13,18 +13,25 @@ OS_PLATFORM = platform.system()
 IS_ATLEAST_MAC_OS_12 = False
 if OS_PLATFORM == 'Darwin':
     import objc
-    IS_ATLEAST_MAC_OS_12 = objc.macos_available(12,0)
+    IS_ATLEAST_MAC_OS_12 = objc.macos_available(12, 0)
 
-from utils import setup_logging
+try:
+    from utils import setup_logging
+except ModuleNotFoundError:
+    from .utils import setup_logging
+
 LOG = setup_logging("ble.log")
 
-# Ref: https://stackoverflow.com/questions/31875/is-there-a-simple-elegant-way-to-define-singletons    
+
+# Ref: https://stackoverflow.com/questions/31875/is-there-a-simple-elegant-way-to-define-singletons
 def wait_a(coroutine):
     loop = asyncio.get_event_loop()
     return loop.run_until_complete(coroutine)
 
+
 def wait_b(coroutine):
     return asyncio.run(coroutine)
+
 
 # Ref: https://github.com/alexandrebarachant/muse-lsl/pull/148/files
 class BLEAsyncDevice():
@@ -32,7 +39,7 @@ class BLEAsyncDevice():
         nest_asyncio.apply()
 
         self.set_address(address, service_uuid)
-        
+
         self.client = None
         self.error_msg = None
 
@@ -42,17 +49,18 @@ class BLEAsyncDevice():
 
     def disconnect_handler(self, data):
         LOG.info("Disconnected from {}".format(data.address))
-    
+
     def _is_atleast_mac_os_12(self):
         return IS_ATLEAST_MAC_OS_12
-    
+
     def _get_platform(self):
         return OS_PLATFORM
-    
+
     async def _get_ble_device(self, timeout=10.0):
         if IS_ATLEAST_MAC_OS_12:
             device = None
-            async with BleakScanner(service_uuids=[self.service_uuid]) as scanner:
+            async with BleakScanner(
+                    service_uuids=[self.service_uuid]) as scanner:
                 start_time = time.time()
                 while (time.time() - start_time) <= timeout:
                     await asyncio.sleep(2)
@@ -61,7 +69,9 @@ class BLEAsyncDevice():
                         break
 
             if device == None:
-                raise Exception('Could not find device with address: {} and service uuid: {}'.format(self.address, self.service_uuid))
+                raise Exception(
+                    'Could not find device with address: {} and service uuid: {}'
+                    .format(self.address, self.service_uuid))
             else:
                 return device
         else:
@@ -72,7 +82,8 @@ class BLEAsyncDevice():
             LOG.info("Already connected to a BLE device")
             return True
         else:
-            LOG.info('Looking for Artemis Nano Peripheral Device: {}'.format(self.address))
+            LOG.info('Looking for Artemis Nano Peripheral Device: {}'.format(
+                self.address))
             success = False
             device = await self._get_ble_device()
             self.client = BleakClient(device)
@@ -86,9 +97,9 @@ class BLEAsyncDevice():
             if self.client.is_connected:
                 self.client.set_disconnected_callback(self.disconnect_handler)
                 LOG.info("Connected to {}".format(self.address))
-            
+
             return success
-    
+
     async def _disconnect(self):
         if self.client and self.client.is_connected:
             await self.client.disconnect()
@@ -97,7 +108,7 @@ class BLEAsyncDevice():
 
     async def _write(self, uuid, byte_array):
         if self.client and self.client.is_connected:
-            await self.client.write_gatt_char(uuid, byte_array,response=True)
+            await self.client.write_gatt_char(uuid, byte_array, response=True)
         else:
             raise Exception("Not connected to a BLE device")
 
@@ -119,7 +130,9 @@ class BLEAsyncDevice():
         else:
             raise Exception("Not connected to a BLE device")
 
+
 # Ref: https://github.com/hbldh/bleak/blob/develop/examples/service_explorer.py
+
     async def _explore_services(self):
         LOG.info(f"Connected to: {self.client.is_connected}")
 
@@ -128,7 +141,8 @@ class BLEAsyncDevice():
             for char in service.characteristics:
                 if "read" in char.properties:
                     try:
-                        value = bytes(await self.client.read_gatt_char(char.uuid))
+                        value = bytes(await
+                                      self.client.read_gatt_char(char.uuid))
                         LOG.info(
                             f"\t[Characteristic] {char} ({','.join(char.properties)}), Value: {value}"
                         )
@@ -145,9 +159,10 @@ class BLEAsyncDevice():
 
                 for descriptor in char.descriptors:
                     try:
-                        value = bytes(
-                            await self.client.read_gatt_descriptor(descriptor.handle)
-                        )
-                        LOG.info(f"\t\t[Descriptor] {descriptor}) | Value: {value}")
+                        value = bytes(await self.client.read_gatt_descriptor(
+                            descriptor.handle))
+                        LOG.info(
+                            f"\t\t[Descriptor] {descriptor}) | Value: {value}")
                     except Exception as e:
-                        LOG.error(f"\t\t[Descriptor] {descriptor}) | Value: {e}")
+                        LOG.error(
+                            f"\t\t[Descriptor] {descriptor}) | Value: {e}")

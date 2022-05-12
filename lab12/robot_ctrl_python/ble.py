@@ -1,5 +1,9 @@
-from base_ble import *
+try:
+    from base_ble import *
+except ModuleNotFoundError:
+    from .base_ble import *
 import atexit
+import os
 
 GLOBAL_BLE_DEVICE = None
 
@@ -10,7 +14,8 @@ def get_ble_controller():
         GLOBAL_BLE_DEVICE.reload_config()
         return GLOBAL_BLE_DEVICE
     else:
-        GLOBAL_BLE_DEVICE = ArtemisBLEController()
+        config_file = os.path.join(os.path.dirname(__file__), "connection.yaml")
+        GLOBAL_BLE_DEVICE = ArtemisBLEController(config=config_file)
         return GLOBAL_BLE_DEVICE
 
 
@@ -46,7 +51,10 @@ class BaseBLEController(object):
         LOG.info('Scanning for Bluetooth devices...')
         scanner = BleakScanner()
         devices = self._wait(scanner.discover(timeout))
-        return [{'name': device.name, 'address': device.address} for device in devices]
+        return [{
+            'name': device.name,
+            'address': device.address
+        } for device in devices]
 
     def is_connected(self):
         return self.device.client.is_connected
@@ -85,43 +93,47 @@ class BaseBLEController(object):
 
     def explore_services(self):
         self._wait(self.device._explore_services())
-    
+
     def __del__(self):
         try:
             self.disconnect()
             LOG.info('BaseBLEController Deleted')
         except Exception as e:
-            LOG.warn("Could not delete BaseBLEController instance before exiting")
+            LOG.warn(
+                "Could not delete BaseBLEController instance before exiting")
             LOG.warn(str(e))
 
 
 class ArtemisBLEController(BaseBLEController):
     _instantiated = False
+
     def __init__(self, config='connection.yaml', max_write_length=150):
         if ArtemisBLEController._instantiated == True:
-            raise Exception("Cannot create more than one instance of ArtemisBLEController. \n Use the function get_ble_controller() to always return a single instance of the class.")
+            raise Exception(
+                "Cannot create more than one instance of ArtemisBLEController. \n Use the function get_ble_controller() to always return a single instance of the class."
+            )
         else:
             ArtemisBLEController._instantiated = True
-        
+
         self.conn_config = config
         address, service_uuid, self.uuid = self._load_config()
 
-        super(ArtemisBLEController, self).__init__(address, service_uuid, max_write_length)
+        super(ArtemisBLEController, self).__init__(address, service_uuid,
+                                                   max_write_length)
 
     def _load_config(self):
         try:
             with open(self.conn_config) as file:
-                config_list = yaml.load(file,
-                                        Loader=yaml.FullLoader)
+                config_list = yaml.load(file, Loader=yaml.FullLoader)
                 address = config_list["artemis_address"]
                 service_uuid = config_list["ble_service"]
                 uuid = config_list["characteristics"]
                 return address, service_uuid, uuid
-                
+
         except Exception as e:
             LOG.error("Error loading config file: " + self.conn_config)
             LOG.error(e)
-    
+
     def reload_config(self):
         address, service_uuid, self.uuid = self._load_config()
         self.device.set_address(address, service_uuid)
@@ -143,13 +155,13 @@ class ArtemisBLEController(BaseBLEController):
 
     def receive_string(self, uuid):
         return self.bytearray_to_string(self.read(uuid))
-    
-    def send_command(self, cmd_type, data):
+
+    def send_command(self, cmd_type, data=""):
         cmd_string = str(cmd_type.value) + ":" + str(data)
 
         if len(cmd_string) < self.max_write_length:
-            self.write(self.uuid['TX_CMD_STRING'], bytearray(map(ord, cmd_string)))
+            self.write(self.uuid['TX_CMD_STRING'],
+                       bytearray(map(ord, cmd_string)))
         else:
             raise Exception("Cannot write string larger than {} bytes".format(
                 self.max_write_length))
-   
