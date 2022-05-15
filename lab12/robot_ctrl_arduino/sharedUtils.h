@@ -48,4 +48,4 @@ void driveWithPID();
 void writeSpeedToBLE();
 
 void stunt();
-void spin360(int* i);
+void spin360(int* i, int initSpeed);

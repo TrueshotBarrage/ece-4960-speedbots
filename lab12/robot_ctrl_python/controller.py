@@ -230,9 +230,10 @@ class RobotControl():
         self.sensor_arr = sensor_arr
         return sensor_arr
 
-    def spin_360(self):
-        self.ble.send_command(CMD.SPIN_360)
-        self.start_recording()  # Must call stop_recording() after the spin stops
+    def spin_360(self, speed=85):
+        self.ble.send_command(CMD.SPIN_360, speed)
+        self.start_recording(
+        )  # Must call stop_recording() after the spin stops
 
     def stunt(self):
         self.ble.send_command(CMD.STUNT)

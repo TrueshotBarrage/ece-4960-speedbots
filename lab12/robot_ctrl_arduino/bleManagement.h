@@ -37,6 +37,7 @@ long interval = 500;
 static long previousMillis = 0;
 unsigned long currentMillis = 0;
 //////////// Global Variables ////////////
+int initSpeed = 0;
 
 enum CommandTypes
 {
@@ -367,7 +368,11 @@ void handleCommand()
   }
 
   case SPIN_360:
-  {
+  { 
+    success = robot_cmd.get_next_value(initSpeed);
+    if (!success)
+      return;
+
     Serial.println("Spinning 360 degrees");
     spin_running = true;
     break;
@@ -473,9 +478,9 @@ void checkForConnections()
         stunt();
       }
       else if (spin_running) {
-        spin360(&iteration);
+        spin360(&iteration, initSpeed);
       }
-      delay(10);
+//      delay(10);
     }
 
     Serial.println("Disconnected from central");
