@@ -1,0 +1,484 @@
+2022-05-13 16:15:49,878 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:15:49,879 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:15:49,880 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:15:53,926 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:17:50,777 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:17:50,778 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:17:50,778 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:17:54,901 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:22:57,545 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:22:57,545 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:22:57,546 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:23:14,143 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:23:21,178 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:25:09,237 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-13 16:25:09,241 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-13 16:25:09,242 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-13 16:25:18,706 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:25:18,707 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:25:18,707 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:25:51,860 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-05-13 16:25:52,864 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-05-13 16:25:52,866 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:25:58,866 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:29:00,590 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-13 16:29:00,594 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-13 16:29:00,596 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-13 16:29:11,427 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:29:11,427 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:29:11,428 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:29:15,409 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:31:26,141 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-13 16:31:26,145 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-13 16:31:26,147 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-13 16:31:38,227 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:31:38,227 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:31:38,228 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:31:42,075 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:32:44,608 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-13 16:32:44,618 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-13 16:32:44,619 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-13 16:32:54,470 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:32:54,470 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:32:54,471 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:32:59,480 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:35:17,360 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-13 16:35:17,360 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-13 16:35:17,361 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:35:37,329 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-13 16:35:47,192 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-13 16:37:50,300 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:12:49,944 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 16:12:49,951 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 16:12:49,955 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:12:54,349 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:13:46,492 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-05-15 16:13:55,782 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:14:03,630 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:14:08,498 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:15:18,671 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-05-15 16:15:24,301 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:15:26,605 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:15:30,713 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:16:17,975 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:16:21,297 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:16:26,162 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:19:19,206 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:19:21,758 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:19:26,551 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:20:54,268 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-05-15 16:21:24,484 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:21:29,926 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:21:35,206 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:24:52,278 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 16:24:52,278 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 16:24:52,278 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:25:19,003 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:25:22,896 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:27:14,253 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-15 16:27:14,262 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:27:14,263 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-15 16:27:25,985 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 16:27:25,985 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 16:27:25,986 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:27:30,433 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:28:43,731 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-15 16:28:43,740 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:28:43,742 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-15 16:28:57,449 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 16:28:57,449 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 16:28:57,450 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:29:01,229 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:29:02,416 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:29:04,571 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:29:10,426 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:35:18,298 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 16:35:18,298 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 16:35:18,299 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:35:23,054 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:36:06,496 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:36:11,968 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:36:16,396 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:37:50,447 | MainThread   | [INFO    ] | _connect            |: Already connected to a BLE device
+2022-05-15 16:38:02,288 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:38:05,135 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:38:11,313 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:38:50,975 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:39:00,552 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:39:06,963 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:39:51,536 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 16:39:54,309 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 16:39:59,897 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 16:41:09,155 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 18:41:09,738 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 18:41:09,739 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 18:41:09,740 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 18:41:13,561 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 18:43:28,632 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 18:43:28,633 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 18:43:28,634 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 18:43:41,498 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 18:43:48,839 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 18:45:02,401 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-15 18:45:02,412 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 18:45:02,413 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-15 18:45:14,423 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 18:45:14,441 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 18:45:14,447 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 18:45:18,732 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 18:46:22,145 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-15 18:46:22,149 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-15 18:46:22,150 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-15 18:46:33,181 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-15 18:46:33,182 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-15 18:46:33,183 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-15 18:46:36,557 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-15 18:47:07,554 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 16:29:02,927 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 16:29:02,928 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 16:29:02,929 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 16:29:06,769 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 16:30:35,324 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-16 16:30:35,335 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 16:30:35,336 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-16 16:30:49,472 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 16:30:49,472 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 16:30:49,474 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 16:30:54,378 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 16:31:21,859 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 16:35:13,985 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 16:35:13,987 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 16:35:13,988 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 16:35:21,328 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 16:36:37,772 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 16:37:26,744 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 16:37:26,745 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 16:37:26,746 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 16:37:31,449 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 16:42:56,792 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 16:49:57,527 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-16 16:49:57,531 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-16 16:49:57,533 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-16 16:50:11,976 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 16:50:11,976 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 16:50:11,977 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 16:50:17,925 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 16:50:23,671 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 16:50:41,227 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 16:50:45,155 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 16:56:40,046 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-16 16:56:40,050 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 16:56:40,051 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-16 16:56:55,882 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 16:56:55,883 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 16:56:55,883 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 16:57:00,668 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 16:58:40,290 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 17:09:33,568 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 17:09:33,569 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 17:09:33,570 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 17:09:39,332 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 17:26:14,687 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 17:29:30,958 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 17:29:30,959 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 17:29:30,960 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 17:29:36,001 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 17:31:15,468 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 17:31:34,530 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 17:31:38,666 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 17:41:45,915 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 17:41:46,779 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 17:41:54,268 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 17:46:01,851 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-16 17:47:35,118 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 17:47:35,119 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 17:47:35,120 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 17:47:39,407 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 17:56:41,764 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-16 17:56:41,765 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-16 17:56:41,765 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-16 17:56:47,715 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-16 17:59:39,314 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-17 16:35:22,619 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 16:35:22,620 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 16:35:22,622 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 16:35:57,129 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 16:39:42,541 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 16:39:46,326 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 16:45:12,976 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-17 16:46:37,323 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 16:46:37,324 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 16:46:37,325 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 16:46:42,243 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 16:52:34,942 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-17 16:53:10,107 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 16:53:13,940 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:01:56,477 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-17 17:02:06,772 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:02:10,574 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:05:45,729 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 17:05:45,729 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 17:05:45,730 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:05:49,491 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:06:48,712 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 17:06:48,713 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 17:06:48,714 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:06:54,097 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:09:18,581 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-17 17:10:14,661 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-17 17:10:14,663 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-17 17:10:14,665 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-17 17:10:32,688 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 17:10:32,688 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 17:10:32,689 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:10:36,902 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:15:12,236 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 17:15:12,237 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 17:15:12,239 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:15:33,223 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:15:40,633 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:44:17,300 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 17:44:17,301 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 17:44:17,302 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:44:23,189 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:45:25,047 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 17:45:25,048 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 17:45:25,049 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-17 17:45:29,079 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-17 17:47:03,221 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-17 17:47:03,223 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-17 17:47:03,224 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:18:28,930 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:18:28,931 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:18:28,932 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:19:06,583 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:19:10,635 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:31:12,014 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:31:12,015 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:31:12,017 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:31:15,810 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:35:26,350 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:35:26,351 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:35:26,352 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:35:44,925 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:35:48,853 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:37:58,656 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:38:28,769 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 14:38:28,771 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 14:38:28,772 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 14:38:46,161 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:38:46,162 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:38:46,163 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:38:53,154 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:39:51,117 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:42:23,622 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:42:31,213 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:42:33,719 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:42:39,772 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:42:43,864 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:45:17,368 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:45:17,376 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 14:45:17,378 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 14:45:17,379 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 14:45:30,084 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:45:30,085 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:45:30,085 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:45:35,715 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:46:35,254 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 14:46:35,263 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:46:35,265 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 14:46:52,789 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:46:52,790 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:46:52,791 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:46:56,519 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:47:46,581 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 14:47:46,586 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:47:46,587 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 14:47:53,240 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:47:53,240 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:47:53,242 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:47:57,290 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:48:26,833 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 14:48:26,838 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:48:26,840 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 14:48:36,212 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:48:36,212 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:48:36,213 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:48:40,320 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:49:17,430 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 14:49:17,439 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:49:17,440 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 14:49:27,875 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:49:27,876 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:49:27,877 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:49:32,461 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:50:17,552 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 14:51:04,477 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:51:04,477 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:51:04,479 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:51:08,536 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:53:34,367 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 14:53:34,368 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 14:53:34,368 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 14:53:39,274 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 14:56:32,749 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 15:03:40,308 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 15:03:40,315 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 15:03:40,316 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 15:04:43,181 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 15:04:43,182 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 15:04:43,182 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:04:50,035 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 15:06:15,269 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 15:06:25,510 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:06:29,359 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 15:09:29,547 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 15:18:32,226 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 15:18:32,234 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 15:18:32,236 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 15:23:43,657 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 15:23:43,658 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 15:23:43,658 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:23:48,224 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 15:31:30,761 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 15:31:58,149 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:32:03,452 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 15:34:26,215 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 15:36:32,978 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 15:36:32,985 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 15:36:32,986 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 15:36:44,917 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 15:36:44,918 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 15:36:44,919 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:36:50,290 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 15:38:48,568 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 15:49:42,609 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 15:49:42,616 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 15:49:42,617 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 15:49:58,612 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 15:49:58,613 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 15:49:58,614 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:50:02,909 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 15:54:02,474 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 15:54:02,483 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 15:54:02,485 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 15:54:16,092 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 15:54:16,093 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 15:54:16,094 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:54:19,887 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 15:57:52,488 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 15:57:52,489 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 15:57:52,490 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:58:15,160 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 15:58:18,973 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:00:17,008 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:02:10,948 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:02:10,952 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 16:02:10,954 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 16:02:24,436 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:02:24,436 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:02:24,437 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:02:29,429 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:04:18,451 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:04:48,289 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:04:52,557 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:09:40,789 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:09:40,795 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:09:40,797 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 16:09:56,477 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:09:56,479 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:09:56,481 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:10:16,708 | MainThread   | [ERROR   ] | _connect            |: disconnected
+2022-05-18 16:10:17,710 | MainThread   | [WARNING ] | connect             |: Attempting to connect again...
+2022-05-18 16:10:17,712 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:10:25,581 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:17:54,449 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:17:54,456 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:17:54,457 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 16:18:06,367 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:18:06,368 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:18:06,369 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:18:13,095 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:19:26,274 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:19:26,283 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:19:26,286 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 16:19:56,200 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:19:56,200 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:19:56,201 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:20:00,437 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:21:26,285 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:21:52,939 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:21:58,221 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:25:36,867 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:25:36,877 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:25:36,878 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 16:25:54,047 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:25:54,047 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:25:54,047 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:25:58,392 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:26:58,784 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:26:58,794 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:26:58,795 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 16:27:45,757 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:27:45,758 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:27:45,759 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:27:51,383 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:29:26,802 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:29:32,895 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:29:32,898 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 16:29:32,899 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 16:29:46,227 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:29:46,227 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:29:46,228 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:29:50,040 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:33:59,623 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:33:59,629 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:33:59,630 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 16:35:24,373 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:35:24,373 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:35:24,375 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:35:36,313 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:35:53,835 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:35:53,835 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:35:53,836 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:35:59,740 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:40:02,763 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:42:52,725 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:42:52,862 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:42:52,935 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:42:57,496 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:44:09,019 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:44:23,357 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:44:23,359 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 16:44:23,360 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 16:44:33,686 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:44:33,687 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:44:33,688 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:44:37,794 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:46:12,271 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:47:52,087 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:47:52,094 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 16:47:52,095 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 16:48:06,645 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:48:06,646 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:48:06,647 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:48:11,028 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:49:11,221 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:49:11,227 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:49:11,230 | MainThread   | [INFO    ] | exit_handler        |: Gracefully Exiting
+2022-05-18 16:49:26,603 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:49:26,604 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:49:26,606 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:49:30,331 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:51:35,946 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 16:52:00,858 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 16:52:00,860 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 16:52:00,862 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device
+2022-05-18 16:52:37,527 | MainThread   | [DEBUG   ] | __init__            |: Python Info: sys.version_info(major=3, minor=10, micro=4, releaselevel='final', serial=0)
+2022-05-18 16:52:37,528 | MainThread   | [DEBUG   ] | __init__            |: System Info: macOS-12.2-x86_64-i386-64bit
+2022-05-18 16:52:37,529 | MainThread   | [INFO    ] | _connect            |: Looking for Artemis Nano Peripheral Device: C0:83:A5:6D:02:3C
+2022-05-18 16:52:41,936 | MainThread   | [INFO    ] | _connect            |: Connected to C0:83:A5:6D:02:3C
+2022-05-18 16:58:32,910 | MainThread   | [INFO    ] | disconnect_handler  |: Disconnected from B45C71B2-3BCA-639D-7AF3-3C14C2003C3E
+2022-05-18 23:36:04,605 | MainThread   | [INFO    ] | exit_handler        |: Exiting...
+2022-05-18 23:36:04,727 | MainThread   | [WARNING ] | exit_handler        |: Could not disconnect before exiting
+2022-05-18 23:36:04,728 | MainThread   | [WARNING ] | exit_handler        |: Not connected to a BLE device

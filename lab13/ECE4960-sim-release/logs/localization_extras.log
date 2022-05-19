@@ -1,0 +1,674 @@
+2022-05-18 16:12:27,209 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.3459769252758817e-25
+2022-05-18 16:12:27,213 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.914, -0.610, 50.000)
+2022-05-18 16:12:30,667 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:12:30,714 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.046 secs
+2022-05-18 16:12:41,923 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:12:41,927 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:12:41,928 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 3, 3) with prob = 1.0
+2022-05-18 16:12:41,930 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.1767159044307019e-21
+2022-05-18 16:12:41,931 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, -0.305, -110.000)
+2022-05-18 16:12:44,092 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:12:44,137 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:12:53,823 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:12:53,827 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:12:53,828 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 4, 17) with prob = 0.9996987
+2022-05-18 16:12:53,829 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.780466903396266e-11
+2022-05-18 16:12:53,830 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.000, 170.000)
+2022-05-18 16:12:56,316 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:12:56,447 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.130 secs
+2022-05-18 16:13:07,571 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:13:07,575 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:13:07,576 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 2, 16) with prob = 1.0
+2022-05-18 16:13:07,578 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.374122844934676e-19
+2022-05-18 16:13:07,580 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -0.610, 150.000)
+2022-05-18 16:13:09,952 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:13:10,012 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.059 secs
+2022-05-18 16:13:21,156 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:13:21,159 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:13:21,160 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 4, 11) with prob = 1.0
+2022-05-18 16:13:21,161 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.1462481910856903e-15
+2022-05-18 16:13:21,163 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, 0.000, 50.000)
+2022-05-18 16:13:24,247 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:13:24,302 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.054 secs
+2022-05-18 16:13:35,424 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:13:35,428 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:13:35,429 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 2, 3) with prob = 0.9999999
+2022-05-18 16:13:35,430 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 4.66257599157918e-32
+2022-05-18 16:13:35,431 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, -0.610, -110.000)
+2022-05-18 16:13:37,912 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:13:37,956 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:13:47,639 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:13:47,643 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:13:47,644 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 0, 6) with prob = 1.0
+2022-05-18 16:13:47,645 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.28148280044708e-09
+2022-05-18 16:13:47,646 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -1.219, -50.000)
+2022-05-18 16:17:30,634 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:17:30,717 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.081 secs
+2022-05-18 16:17:40,552 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:17:40,556 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:17:40,557 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 0, 6) with prob = 1.0
+2022-05-18 16:17:40,558 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.0006950809470714095
+2022-05-18 16:17:40,559 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -1.219, -50.000)
+2022-05-18 16:18:41,582 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:18:41,586 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:18:41,588 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 1, 12) with prob = 1.0
+2022-05-18 16:18:41,589 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:18:41,590 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.914, 70.000)
+2022-05-18 16:18:50,056 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:18:50,136 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.077 secs
+2022-05-18 16:18:59,883 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:18:59,889 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.005 secs
+2022-05-18 16:18:59,891 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 1, 9) with prob = 1.0
+2022-05-18 16:18:59,893 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 6.466068610549462e-06
+2022-05-18 16:18:59,896 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.914, 10.000)
+2022-05-18 16:20:23,017 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:20:23,020 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:20:23,021 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (10, 8, 4) with prob = 1.0
+2022-05-18 16:20:23,022 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:20:23,023 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.524, 1.219, -90.000)
+2022-05-18 16:20:33,917 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:20:33,989 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.070 secs
+2022-05-18 16:20:43,751 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:20:43,756 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:20:43,757 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 2, 12) with prob = 0.9999999
+2022-05-18 16:20:43,758 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.432655980537255e-36
+2022-05-18 16:20:43,759 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.610, 70.000)
+2022-05-18 16:20:46,682 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:20:46,729 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.046 secs
+2022-05-18 16:20:57,510 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:20:57,513 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:20:57,514 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 0, 12) with prob = 1.0
+2022-05-18 16:20:57,515 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 3.8750096790973334e-23
+2022-05-18 16:20:57,517 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, -1.219, 70.000)
+2022-05-18 16:21:00,272 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:21:00,317 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:21:09,984 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:21:09,988 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:21:09,989 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 4, 4) with prob = 0.9999999
+2022-05-18 16:21:09,989 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.744947371637689e-30
+2022-05-18 16:21:09,990 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.000, -90.000)
+2022-05-18 16:21:12,197 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:21:12,245 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.046 secs
+2022-05-18 16:21:23,418 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:21:23,422 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:21:23,423 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 6, 13) with prob = 0.6210317
+2022-05-18 16:21:23,423 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.4898554627796462e-21
+2022-05-18 16:21:23,425 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, 0.610, 90.000)
+2022-05-18 16:22:45,526 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:22:45,529 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:22:45,531 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 0, 13) with prob = 1.0
+2022-05-18 16:22:45,532 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:22:45,533 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -1.219, 90.000)
+2022-05-18 16:22:52,461 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:22:52,599 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.097 secs
+2022-05-18 16:23:02,414 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:23:02,417 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:23:02,418 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (0, 2, 10) with prob = 1.0
+2022-05-18 16:23:02,420 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.3171129091773111e-14
+2022-05-18 16:23:02,421 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.524, -0.610, 30.000)
+2022-05-18 16:23:05,497 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:23:05,561 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.063 secs
+2022-05-18 16:23:15,011 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:23:15,017 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.005 secs
+2022-05-18 16:23:15,019 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (0, 1, 12) with prob = 0.9999999
+2022-05-18 16:23:15,020 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.019740756967905e-40
+2022-05-18 16:23:15,023 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.524, -0.914, 70.000)
+2022-05-18 16:23:18,471 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:23:18,519 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.047 secs
+2022-05-18 16:23:28,962 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:23:28,972 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:23:28,973 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 2, 11) with prob = 1.0
+2022-05-18 16:23:28,974 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.0006168384037753109
+2022-05-18 16:23:28,975 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -0.610, 50.000)
+2022-05-18 16:23:32,152 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:23:32,197 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:23:42,284 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:23:42,287 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:23:42,288 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 3, 12) with prob = 0.9999999
+2022-05-18 16:23:42,289 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.0030987293547575e-15
+2022-05-18 16:23:42,290 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -0.305, 70.000)
+2022-05-18 16:23:45,352 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:23:45,398 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:23:55,699 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:23:55,709 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.007 secs
+2022-05-18 16:23:55,714 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 3, 11) with prob = 0.9998835
+2022-05-18 16:23:55,716 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.7855515876525706e-20
+2022-05-18 16:23:55,720 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, -0.305, 50.000)
+2022-05-18 16:23:58,492 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:23:58,611 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.118 secs
+2022-05-18 16:24:10,076 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:24:10,081 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:24:10,082 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 4, 16) with prob = 1.0
+2022-05-18 16:24:10,083 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.1112541735182068e-19
+2022-05-18 16:24:10,084 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, 0.000, 150.000)
+2022-05-18 16:24:12,517 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:24:12,562 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:24:23,744 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:24:23,754 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:24:23,755 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 3, 17) with prob = 1.0
+2022-05-18 16:24:23,756 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.508447414509988e-36
+2022-05-18 16:24:23,757 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.305, 170.000)
+2022-05-18 16:24:26,587 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:24:26,634 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:24:36,379 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:24:36,382 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:24:36,383 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 2, 1) with prob = 1.0
+2022-05-18 16:24:36,385 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.1408685520677421e-49
+2022-05-18 16:24:36,386 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.610, -150.000)
+2022-05-18 16:24:39,052 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:24:39,098 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:24:49,301 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:24:49,304 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:24:49,305 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 1, 2) with prob = 0.9999999
+2022-05-18 16:24:49,306 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 5.971115553715786e-11
+2022-05-18 16:24:49,307 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, -0.914, -130.000)
+2022-05-18 16:24:50,594 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:24:50,640 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:24:59,935 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:24:59,940 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:24:59,942 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (0, 1, 7) with prob = 0.9999999
+2022-05-18 16:24:59,943 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 5.759293654293508e-07
+2022-05-18 16:24:59,944 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.524, -0.914, -30.000)
+2022-05-18 16:25:03,877 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:25:03,929 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.049 secs
+2022-05-18 16:25:14,069 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:25:14,073 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:25:14,074 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 0, 3) with prob = 0.9999999
+2022-05-18 16:25:14,074 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.096820237780319e-35
+2022-05-18 16:25:14,076 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -1.219, -110.000)
+2022-05-18 16:25:15,337 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:25:15,384 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.046 secs
+2022-05-18 16:25:26,682 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:25:26,686 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:25:26,687 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 0, 12) with prob = 0.9999999
+2022-05-18 16:25:26,688 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.3898123666278895e-32
+2022-05-18 16:25:26,689 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, -1.219, 70.000)
+2022-05-18 16:25:29,542 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:25:29,588 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:26:22,869 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:26:22,873 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:26:22,874 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (10, 0, 17) with prob = 0.9976284
+2022-05-18 16:26:22,875 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:26:22,876 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.524, -1.219, 170.000)
+2022-05-18 16:26:40,086 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:26:40,091 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:26:40,092 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (0, 2, 11) with prob = 0.9999989
+2022-05-18 16:26:40,093 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:26:40,095 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.524, -0.610, 50.000)
+2022-05-18 16:28:33,341 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:28:33,345 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:28:33,346 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 6, 10) with prob = 1.0
+2022-05-18 16:28:33,347 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:28:33,349 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.610, 30.000)
+2022-05-18 16:28:40,753 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:28:40,839 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.084 secs
+2022-05-18 16:28:51,164 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:28:51,171 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:28:51,172 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 8, 8) with prob = 0.9999442
+2022-05-18 16:28:51,172 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 4.8288777459344735e-05
+2022-05-18 16:28:51,174 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, 1.219, -10.000)
+2022-05-18 16:28:54,698 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:28:54,744 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:29:04,558 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:29:04,561 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:29:04,562 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 4, 0) with prob = 0.8128666
+2022-05-18 16:29:04,563 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 4.654722165361286e-17
+2022-05-18 16:29:04,564 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.000, -170.000)
+2022-05-18 16:29:07,193 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:29:07,280 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.085 secs
+2022-05-18 16:29:17,037 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:29:17,041 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:29:17,042 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 7, 1) with prob = 0.9999999
+2022-05-18 16:29:17,042 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 5.978566132447232e-43
+2022-05-18 16:29:17,043 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, 0.914, -150.000)
+2022-05-18 16:29:20,288 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:29:20,335 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:30:15,173 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:30:15,177 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:30:15,178 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (0, 2, 11) with prob = 1.0
+2022-05-18 16:30:15,179 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:30:15,180 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.524, -0.610, 50.000)
+2022-05-18 16:30:19,570 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:30:19,650 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.078 secs
+2022-05-18 16:30:29,418 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:30:29,424 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:30:29,429 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 1, 12) with prob = 1.0
+2022-05-18 16:30:29,430 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.947590907245199e-23
+2022-05-18 16:30:29,432 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.914, 70.000)
+2022-05-18 16:30:32,550 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:30:32,594 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:30:42,357 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:30:42,366 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:30:42,367 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 3, 10) with prob = 0.9999999
+2022-05-18 16:30:42,368 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.755333482405299e-06
+2022-05-18 16:30:42,369 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.305, 30.000)
+2022-05-18 16:30:45,135 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:30:45,179 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:30:56,343 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:30:56,347 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:30:56,348 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 3, 10) with prob = 1.0
+2022-05-18 16:30:56,349 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.007424109740087537
+2022-05-18 16:30:56,350 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.305, 30.000)
+2022-05-18 16:30:58,920 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:30:58,980 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:31:09,775 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:31:09,778 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:31:09,779 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 4, 17) with prob = 0.9999999
+2022-05-18 16:31:09,780 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 3.855809763922779e-13
+2022-05-18 16:31:09,782 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, 0.000, 170.000)
+2022-05-18 16:31:12,180 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:31:12,224 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:31:22,399 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:31:22,402 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:31:22,403 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 2, 3) with prob = 0.9999940
+2022-05-18 16:31:22,404 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.7219805730749765e-05
+2022-05-18 16:31:22,405 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -0.610, -110.000)
+2022-05-18 16:31:25,830 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:31:25,922 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.086 secs
+2022-05-18 16:31:36,352 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:31:36,355 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:31:36,356 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 4, 13) with prob = 0.9999981
+2022-05-18 16:31:36,357 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.419983892642115e-28
+2022-05-18 16:31:36,359 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.000, 90.000)
+2022-05-18 16:31:39,540 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:31:39,588 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.047 secs
+2022-05-18 16:31:50,599 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:31:50,604 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:31:50,605 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 4, 9) with prob = 0.9997843
+2022-05-18 16:31:50,606 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 3.71494047990214e-18
+2022-05-18 16:31:50,607 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, 0.000, 10.000)
+2022-05-18 16:31:53,685 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:31:53,773 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.088 secs
+2022-05-18 16:32:03,590 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:32:03,594 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:32:03,595 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (7, 4, 7) with prob = 1.0
+2022-05-18 16:32:03,596 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.1366057899593018e-09
+2022-05-18 16:32:03,597 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.610, 0.000, -30.000)
+2022-05-18 16:32:06,300 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:32:06,344 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:32:16,212 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:32:16,216 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:32:16,217 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 3, 0) with prob = 0.9876811
+2022-05-18 16:32:16,218 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.493733366840102e-21
+2022-05-18 16:32:16,219 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.305, -170.000)
+2022-05-18 16:32:19,155 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:32:19,243 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.087 secs
+2022-05-18 16:32:30,378 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:32:30,382 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:32:30,383 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 1, 1) with prob = 0.9999999
+2022-05-18 16:32:30,384 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 5.449263814830143e-17
+2022-05-18 16:32:30,385 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -0.914, -150.000)
+2022-05-18 16:32:33,795 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:32:33,851 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.055 secs
+2022-05-18 16:32:43,682 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:32:43,685 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:32:43,686 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 1, 11) with prob = 1.0
+2022-05-18 16:32:43,687 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.1884490205575563e-26
+2022-05-18 16:32:43,689 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, -0.914, 50.000)
+2022-05-18 16:32:46,695 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:32:46,742 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.046 secs
+2022-05-18 16:32:57,022 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:32:57,025 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:32:57,026 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 3, 17) with prob = 0.9999879
+2022-05-18 16:32:57,028 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 4.656743250699231e-09
+2022-05-18 16:32:57,029 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.305, 170.000)
+2022-05-18 16:32:59,970 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:33:00,020 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.050 secs
+2022-05-18 16:33:10,163 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:33:10,167 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:33:10,168 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 7, 15) with prob = 0.9999999
+2022-05-18 16:33:10,169 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.186252478870061e-06
+2022-05-18 16:33:10,170 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, 0.914, 130.000)
+2022-05-18 16:33:11,434 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:33:11,479 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:33:20,952 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:33:20,956 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:33:20,958 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (9, 6, 10) with prob = 0.9999998
+2022-05-18 16:33:20,959 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 5.549411514288872e-06
+2022-05-18 16:33:20,960 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.219, 0.610, 30.000)
+2022-05-18 16:33:24,811 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:33:24,856 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:33:35,300 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:33:35,304 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:33:35,305 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 5, 11) with prob = 0.9999999
+2022-05-18 16:33:35,306 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.574210248230301e-38
+2022-05-18 16:33:35,307 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.305, 50.000)
+2022-05-18 16:33:38,821 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:33:38,867 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:33:48,613 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:33:48,626 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.006 secs
+2022-05-18 16:33:48,632 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (11, 1, 7) with prob = 1.0
+2022-05-18 16:33:48,638 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 4.815440797801172e-09
+2022-05-18 16:33:48,642 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.829, -0.914, -30.000)
+2022-05-18 16:33:49,831 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:33:49,897 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.064 secs
+2022-05-18 16:36:23,368 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:36:23,373 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:36:23,375 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 1, 13) with prob = 1.0
+2022-05-18 16:36:23,377 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:36:23,378 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -0.914, 90.000)
+2022-05-18 16:36:41,051 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:36:41,153 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.100 secs
+2022-05-18 16:36:50,890 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:36:50,894 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:36:50,895 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 8, 9) with prob = 1.0
+2022-05-18 16:36:50,896 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 3.028319202496862e-11
+2022-05-18 16:36:50,897 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 1.219, 10.000)
+2022-05-18 16:36:54,191 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:36:54,239 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.048 secs
+2022-05-18 16:37:03,919 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:37:03,925 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.005 secs
+2022-05-18 16:37:03,927 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 4, 7) with prob = 1.0
+2022-05-18 16:37:03,928 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 3.77797096290746e-12
+2022-05-18 16:37:03,929 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, 0.000, -30.000)
+2022-05-18 16:37:06,416 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:37:06,464 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.047 secs
+2022-05-18 16:37:17,681 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:37:17,685 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:37:17,686 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 4, 0) with prob = 0.9999306
+2022-05-18 16:37:17,687 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 4.976651279707116e-23
+2022-05-18 16:37:17,689 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.000, -170.000)
+2022-05-18 16:37:20,110 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:37:20,155 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:37:30,030 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:37:30,034 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:37:30,035 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 2, 2) with prob = 1.0
+2022-05-18 16:37:30,036 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.8458152599074546e-09
+2022-05-18 16:37:30,037 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -0.610, -130.000)
+2022-05-18 16:37:33,236 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:37:33,282 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:37:43,529 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:37:43,533 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:37:43,535 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (8, 4, 11) with prob = 0.9551398
+2022-05-18 16:37:43,536 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.0032443281259793e-20
+2022-05-18 16:37:43,537 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.914, 0.000, 50.000)
+2022-05-18 16:37:46,556 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:37:46,691 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.135 secs
+2022-05-18 16:37:57,790 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:37:57,794 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:37:57,795 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 7, 4) with prob = 1.0
+2022-05-18 16:37:57,796 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.673043854980741e-23
+2022-05-18 16:37:57,798 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.914, -90.000)
+2022-05-18 16:38:01,451 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:38:01,497 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:38:12,865 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:38:12,869 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:38:12,870 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 3, 16) with prob = 0.9999998
+2022-05-18 16:38:12,871 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.994084540918515e-30
+2022-05-18 16:38:12,872 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.305, 150.000)
+2022-05-18 16:38:15,896 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:38:15,942 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:38:27,790 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:38:27,794 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:38:27,795 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 5, 12) with prob = 1.0
+2022-05-18 16:38:27,796 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.300046159591988e-25
+2022-05-18 16:38:27,797 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, 0.305, 70.000)
+2022-05-18 16:38:31,360 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:38:31,406 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:38:41,321 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:38:41,329 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:38:41,331 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 8, 5) with prob = 0.9999999
+2022-05-18 16:38:41,332 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.763546265736587e-24
+2022-05-18 16:38:41,333 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, 1.219, -70.000)
+2022-05-18 16:38:45,401 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:38:45,446 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:38:55,562 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:38:55,566 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:38:55,567 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (7, 5, 13) with prob = 0.9989202
+2022-05-18 16:38:55,568 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 6.812186486541559e-13
+2022-05-18 16:38:55,569 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.610, 0.305, 90.000)
+2022-05-18 16:38:56,868 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:38:56,956 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.088 secs
+2022-05-18 16:39:06,985 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:39:06,994 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:39:06,995 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (7, 5, 12) with prob = 1.0
+2022-05-18 16:39:06,996 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.038814914000975e-07
+2022-05-18 16:39:06,998 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.610, 0.305, 70.000)
+2022-05-18 16:39:07,991 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:39:08,037 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:39:17,942 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:39:17,946 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:39:17,946 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 5, 2) with prob = 1.0
+2022-05-18 16:39:17,947 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.798353694859098e-31
+2022-05-18 16:39:17,949 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.305, -130.000)
+2022-05-18 16:39:21,596 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:39:21,643 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:39:31,642 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:39:31,652 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:39:31,653 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (0, 5, 1) with prob = 0.9998573
+2022-05-18 16:39:31,654 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00041906845292825673
+2022-05-18 16:39:31,655 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.524, 0.305, -150.000)
+2022-05-18 16:39:35,831 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:39:35,934 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.102 secs
+2022-05-18 16:39:45,746 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:39:45,750 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:39:45,751 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 5, 4) with prob = 1.0
+2022-05-18 16:39:45,752 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.766756849810405e-11
+2022-05-18 16:39:45,753 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.305, -90.000)
+2022-05-18 16:39:49,121 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:39:49,164 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:40:00,171 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:40:00,179 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.005 secs
+2022-05-18 16:40:00,180 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 4, 12) with prob = 0.4993435
+2022-05-18 16:40:00,182 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.506385503134017e-19
+2022-05-18 16:40:00,183 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, 0.000, 70.000)
+2022-05-18 16:43:24,996 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:43:25,000 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:43:25,001 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 1, 12) with prob = 0.9998172
+2022-05-18 16:43:25,002 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:43:25,003 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.914, 70.000)
+2022-05-18 16:43:32,257 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:43:32,395 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.129 secs
+2022-05-18 16:43:42,565 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:43:42,575 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:43:42,576 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 1, 13) with prob = 1.0
+2022-05-18 16:43:42,578 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 9.776595554862104e-14
+2022-05-18 16:43:42,580 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -0.914, 90.000)
+2022-05-18 16:43:47,821 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:43:47,866 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:43:57,722 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:43:57,726 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:43:57,727 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (9, 6, 0) with prob = 0.8892745
+2022-05-18 16:43:57,728 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.562282407444471e-27
+2022-05-18 16:43:57,730 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.219, 0.610, -170.000)
+2022-05-18 16:44:02,431 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:44:02,562 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.129 secs
+2022-05-18 16:44:59,941 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:44:59,945 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:44:59,946 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 6, 9) with prob = 0.9999999
+2022-05-18 16:44:59,947 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:44:59,948 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.610, 10.000)
+2022-05-18 16:45:16,850 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:45:16,860 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:45:16,861 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 0, 13) with prob = 0.9999987
+2022-05-18 16:45:16,862 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:45:16,864 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -1.219, 90.000)
+2022-05-18 16:45:22,317 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:45:22,412 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.092 secs
+2022-05-18 16:45:32,432 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:45:32,436 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:45:32,437 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 0, 11) with prob = 0.9998220
+2022-05-18 16:45:32,438 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.91028623947133e-11
+2022-05-18 16:45:32,439 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -1.219, 50.000)
+2022-05-18 16:45:37,404 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:45:37,495 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.090 secs
+2022-05-18 16:45:47,557 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:45:47,560 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:45:47,561 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 7, 3) with prob = 0.9999999
+2022-05-18 16:45:47,562 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.12391636486035e-37
+2022-05-18 16:45:47,563 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, 0.914, -110.000)
+2022-05-18 16:45:53,784 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:45:53,832 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.047 secs
+2022-05-18 16:46:05,029 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:46:05,033 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:46:05,034 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 3, 3) with prob = 1.0
+2022-05-18 16:46:05,035 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.873189004426815e-07
+2022-05-18 16:46:05,037 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -0.305, -110.000)
+2022-05-18 16:46:09,414 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:46:09,462 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.047 secs
+2022-05-18 16:49:50,833 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:49:50,837 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:49:50,838 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (10, 0, 17) with prob = 1.0
+2022-05-18 16:49:50,839 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:49:50,840 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.524, -1.219, 170.000)
+2022-05-18 16:50:05,651 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:50:05,656 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:50:05,657 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 1, 12) with prob = 0.9999999
+2022-05-18 16:50:05,658 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:50:05,659 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.914, 70.000)
+2022-05-18 16:50:11,978 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:50:12,064 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.083 secs
+2022-05-18 16:50:22,162 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:50:22,167 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:50:22,168 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 1, 12) with prob = 1.0
+2022-05-18 16:50:22,169 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.5071824724046756e-10
+2022-05-18 16:50:22,171 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.914, 70.000)
+2022-05-18 16:50:27,061 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:50:27,106 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:50:37,214 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:50:37,218 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:50:37,218 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 6, 4) with prob = 1.0
+2022-05-18 16:50:37,219 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 3.8959044279313793e-28
+2022-05-18 16:50:37,220 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.610, -90.000)
+2022-05-18 16:50:41,836 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:50:41,881 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:50:52,268 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:50:52,277 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:50:52,278 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 1, 13) with prob = 0.6160876
+2022-05-18 16:50:52,280 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.158813104718103e-31
+2022-05-18 16:50:52,282 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -0.914, 90.000)
+2022-05-18 16:50:57,571 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:50:57,693 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.121 secs
+2022-05-18 16:51:07,764 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:51:07,778 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.007 secs
+2022-05-18 16:51:07,780 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 8, 3) with prob = 0.9999999
+2022-05-18 16:51:07,783 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 8.505740663564111e-31
+2022-05-18 16:51:07,785 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, 1.219, -110.000)
+2022-05-18 16:51:13,217 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:51:13,261 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:51:23,101 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:51:23,107 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:51:23,108 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 4, 3) with prob = 0.9516288
+2022-05-18 16:51:23,109 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.6526814952751073e-08
+2022-05-18 16:51:23,110 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, 0.000, -110.000)
+2022-05-18 16:51:27,917 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:51:28,004 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.086 secs
+2022-05-18 16:54:30,660 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:54:30,665 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:54:30,666 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (2, 0, 14) with prob = 0.9999999
+2022-05-18 16:54:30,667 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.00051440329218107
+2022-05-18 16:54:30,668 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.914, -1.219, 110.000)
+2022-05-18 16:54:35,421 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:54:35,504 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.079 secs
+2022-05-18 16:54:46,917 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:54:46,921 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:54:46,922 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 1, 11) with prob = 1.0
+2022-05-18 16:54:46,923 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.315639963206552e-09
+2022-05-18 16:54:46,924 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, -0.914, 50.000)
+2022-05-18 16:54:51,672 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:54:51,719 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.046 secs
+2022-05-18 16:55:01,933 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:55:01,936 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:55:01,937 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 6, 10) with prob = 0.9999999
+2022-05-18 16:55:01,938 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.017330396250979e-05
+2022-05-18 16:55:01,938 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.610, 30.000)
+2022-05-18 16:55:04,006 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:55:04,050 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:55:13,891 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:55:13,894 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:55:13,895 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (9, 3, 17) with prob = 0.9999999
+2022-05-18 16:55:13,896 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.8522359652750974e-34
+2022-05-18 16:55:13,897 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.219, -0.305, 170.000)
+2022-05-18 16:55:18,807 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:55:18,852 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:55:29,302 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:55:29,306 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:55:29,308 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 4, 14) with prob = 0.9992326
+2022-05-18 16:55:29,309 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 6.660099661621505e-06
+2022-05-18 16:55:29,319 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, 0.000, 110.000)
+2022-05-18 16:55:34,017 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:55:34,105 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.087 secs
+2022-05-18 16:55:44,168 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:55:44,172 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:55:44,173 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 4, 2) with prob = 0.9694437
+2022-05-18 16:55:44,174 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.4915395892791677e-08
+2022-05-18 16:55:44,175 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, 0.000, -130.000)
+2022-05-18 16:55:47,982 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:55:48,070 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.087 secs
+2022-05-18 16:55:57,734 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:55:57,738 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:55:57,739 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 4, 0) with prob = 1.0
+2022-05-18 16:55:57,741 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.0013380387715377373
+2022-05-18 16:55:57,742 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, 0.000, -170.000)
+2022-05-18 16:56:02,022 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:56:02,066 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:56:13,319 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:56:13,324 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:56:13,325 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 3, 4) with prob = 0.9999999
+2022-05-18 16:56:13,326 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.9825930747671232e-07
+2022-05-18 16:56:13,328 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -0.305, -90.000)
+2022-05-18 16:56:18,237 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:56:18,284 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.046 secs
+2022-05-18 16:56:29,605 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:56:29,616 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:56:29,618 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (5, 3, 4) with prob = 1.0
+2022-05-18 16:56:29,622 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.2748836240086056e-22
+2022-05-18 16:56:29,623 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.000, -0.305, -90.000)
+2022-05-18 16:56:34,047 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:56:34,092 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:56:44,256 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:56:44,259 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:56:44,260 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (7, 2, 5) with prob = 0.9999999
+2022-05-18 16:56:44,261 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 9.734434165353852e-11
+2022-05-18 16:56:44,262 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.610, -0.610, -70.000)
+2022-05-18 16:56:48,702 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:56:48,749 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.045 secs
+2022-05-18 16:56:58,753 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:56:58,757 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:56:58,758 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (3, 2, 17) with prob = 0.5009916
+2022-05-18 16:56:58,759 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.602676449124761e-11
+2022-05-18 16:56:58,760 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.610, -0.610, 170.000)
+2022-05-18 16:57:04,303 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:57:04,392 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.089 secs
+2022-05-18 16:57:14,299 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:57:14,305 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:57:14,306 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (9, 6, 1) with prob = 0.9999999
+2022-05-18 16:57:14,307 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 7.537725080953532e-15
+2022-05-18 16:57:14,314 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.219, 0.610, -150.000)
+2022-05-18 16:57:16,168 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:57:16,212 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:57:25,863 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:57:25,867 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.004 secs
+2022-05-18 16:57:25,868 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (1, 4, 1) with prob = 0.5081536
+2022-05-18 16:57:25,869 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 1.5386720452144e-07
+2022-05-18 16:57:25,870 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-1.219, 0.000, -150.000)
+2022-05-18 16:57:31,693 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:57:31,787 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.093 secs
+2022-05-18 16:57:41,505 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:57:41,509 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:57:41,510 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (4, 8, 9) with prob = 0.9999999
+2022-05-18 16:57:41,510 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 4.603371588796173e-21
+2022-05-18 16:57:41,512 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (-0.305, 1.219, 10.000)
+2022-05-18 16:57:47,368 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:57:47,412 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.043 secs
+2022-05-18 16:57:57,667 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:57:57,671 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.002 secs
+2022-05-18 16:57:57,672 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (8, 8, 7) with prob = 0.9999999
+2022-05-18 16:57:57,673 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 2.029374241875861e-17
+2022-05-18 16:57:57,674 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.914, 1.219, -30.000)
+2022-05-18 16:58:03,118 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:58:03,163 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:58:12,857 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:58:12,861 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.003 secs
+2022-05-18 16:58:12,862 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (6, 0, 13) with prob = 0.9999991
+2022-05-18 16:58:12,863 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 3.157698662837785e-15
+2022-05-18 16:58:12,864 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (0.305, -1.219, 90.000)
+2022-05-18 16:58:14,818 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:58:14,862 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.044 secs
+2022-05-18 16:58:24,544 | MainThread   | [INFO    ] | update_step         |: Update Step
+2022-05-18 16:58:24,574 | MainThread   | [INFO    ] | update_step         |:      | Update Time: 0.017 secs
+2022-05-18 16:58:24,578 | MainThread   | [INFO    ] | plot_update_step_data|: Bel index     : (10, 8, 17) with prob = 0.9999999
+2022-05-18 16:58:24,580 | MainThread   | [INFO    ] | plot_update_step_data|: Bel_bar prob at index = 0.0005848466707414098
+2022-05-18 16:58:24,582 | MainThread   | [INFO    ] | plot_update_step_data|: Belief        : (1.524, 1.219, 170.000)
+2022-05-18 16:58:30,523 | MainThread   | [INFO    ] | prediction_step     |: Prediction Step
+2022-05-18 16:58:30,615 | MainThread   | [INFO    ] | prediction_step     |:  | Prediction Time: 0.091 secs
