@@ -11,7 +11,7 @@
 #define A1_RT_DR 7 // Right motor driver A1
 #define A2_RT_DR 6 // Right motor driver A2
 
-#define CALIBRATION_FACTOR 0.9 // Right motor speed adjustment factor
+#define CALIBRATION_FACTOR 0.85 // Right motor speed adjustment factor
 
 void setupMotorControl()
 {
@@ -68,6 +68,15 @@ void rs()
   Serial.println("right stop");
 }
 
+void activeStop()
+{
+  analogWrite(A1_LT_DR, 255);
+  analogWrite(A2_LT_DR, 255);
+  analogWrite(A1_RT_DR, 255);
+  analogWrite(A2_RT_DR, 255);
+  Serial.println("active stop");
+}
+
 void drive(int direction, int speed)
 {
   switch (direction)
@@ -91,6 +100,9 @@ void drive(int direction, int speed)
   case STOP:
     ls();
     rs();
+    break;
+  case ASTOP:
+    activeStop();
     break;
   }
   motorPWM = speed;

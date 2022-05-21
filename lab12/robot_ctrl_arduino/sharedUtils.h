@@ -30,6 +30,7 @@ EString tx_sensor_value;
 #define FORWARD 2
 #define BACKWARD 3
 #define STOP 4
+#define ASTOP 5
 
 void drive(int direction, int speed);
 

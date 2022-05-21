@@ -8,6 +8,10 @@
 #include <vl53l1x_class.h>
 #include "SparkFun_VL53L1X.h"
 
+// Matrix library
+#include <BasicLinearAlgebra.h>
+using namespace BLA;
+
 // IMU sensor declaration
 ICM_20948_I2C myICM;
 
@@ -30,6 +34,7 @@ EString tx_sensor_value;
 #define FORWARD 2
 #define BACKWARD 3
 #define STOP 4
+#define ASTOP 5
 
 void drive(int direction, int speed);
 
@@ -44,8 +49,9 @@ bool stunt_running = false;
 bool spin_running = false;
 
 void resetPID();
+void driveWithKF();
 void driveWithPID();
 void writeSpeedToBLE();
 
-void stunt();
+void stunt(int* i);
 void spin360(int* i, int initSpeed);

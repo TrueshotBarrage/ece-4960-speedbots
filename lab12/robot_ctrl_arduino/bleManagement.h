@@ -48,6 +48,7 @@ enum CommandTypes
   MOVE_LEFT,
   MOVE_RIGHT,
   MOVE_STOP,
+  MOVE_ASTOP,
   START_PID_300MM,
   STOP_PID_300MM,
   TOGGLE_DEBUG,
@@ -325,6 +326,16 @@ void handleCommand()
   {
     Serial.println("Stopping movement");
     drive(STOP, 0);
+    break;
+  }
+
+  /*
+   * Actively stop the robot from moving.
+   */
+  case MOVE_ASTOP:
+  {
+    Serial.println("Actively stopping movement");
+    drive(ASTOP, 0);
     break;
   }
 

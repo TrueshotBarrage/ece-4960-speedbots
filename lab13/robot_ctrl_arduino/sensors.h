@@ -10,8 +10,12 @@
 //#define SHUTDOWN_PIN 4
 
 // Kirstin's pins
-#define SHUTDOWN_PIN 8
-#define SHUTDOWN_PIN2 A0 // We won't use this but this is what Kirstin's car runs on - sike we will
+//#define SHUTDOWN_PIN 8
+//#define SHUTDOWN_PIN2 A0 // We won't use this but this is what Kirstin's car runs on - sike we will
+
+// Jonathan's pins
+#define SHUTDOWN_PIN 7
+#define SHUTDOWN_PIN2 8 // We won't use this but this is what Jonathan's car runs on - sike we will
 
 void setupIMU()
 {

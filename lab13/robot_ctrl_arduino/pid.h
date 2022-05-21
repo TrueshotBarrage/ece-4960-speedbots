@@ -5,6 +5,87 @@ double kp = 1.0;
 double ki = 0.0;
 double kd = 0.0;
 
+//////// KF Variables ////////
+float d_val = 4.0e-4;  // drag
+float m_val = 2.61e-4; // mass
+
+// A, B, C matrices
+Matrix<2,2> A_mat = { 0, 1,
+                      0, -d_val/m_val };
+Matrix<2,1> B_mat = { 0, 
+                      1/m_val };
+Matrix<1,2> C_mat = { -1, 0 };
+
+// Process and measurement noise
+Matrix<2,2> sig_u = { 10^2, 0,
+                      0, 10^2 };
+Matrix<1,1> sig_z = { 20^2 };
+
+// Discretize A & B
+float delta_t = 0.2536;
+Matrix<2,2> I_mat = { 1, 0,
+                      0, 1     };
+Matrix<2,2> A_d   = { 1, 0.254,
+                      0, 0.611 };
+Matrix<2,1> B_d   = { 0,
+                      971.648  };
+
+// Initial states
+Matrix<2,2> sig   = { 5^2, 0,
+                      0, 5^2 }; // initial state uncertainty
+Matrix<2,1> x_val = { -2909, 
+                      0      }; // initial state output
+
+float e = 0;
+float prev_e = 0;
+float d_e = 0;
+int pwm_val = 0;
+
+//////// KF Function ////////
+void kf() {
+  Matrix<2,1> x_p = A_d*x_val + B_d*pwm_val;
+  Matrix<2,2> sig_p = A_d*sig*(~A_d) + sig_u;
+
+  Matrix<1,1> y_curr = { tx_tof_f_value };
+  Matrix<1,1> y_m = y_curr - C_mat*x_p;
+  Matrix<1,1> sig_m = C_mat*sig_p*(~C_mat) + sig_z;
+
+  Matrix<1,1> sig_m_inv = sig_m;
+  Invert(sig_m_inv);
+
+  Matrix<2,1> kf_gain = sig_p*(~C_mat)*(sig_m_inv);
+
+  // Update
+  x_val = x_p + kf_gain*y_m;
+  sig = (I_mat - kf_gain*C_mat)*sig_p;
+}
+
+void driveWithKF()
+{
+  kf();
+  
+  e = -1 * x_val(0,0) - 500;
+  prev_e = e;
+  d_e = e - prev_e;
+  pwm_val = kp*e + kd*d_e;
+
+  if (pwm_val > 120) {
+    pwm_val = 120;
+  }
+  
+  if (pwm_val > 1) {
+    drive(FORWARD, pwm_val);
+  } else if (pwm_val < -1) {
+    drive(BACKWARD, pwm_val * -1);
+  } else {
+    drive(ASTOP, 0);
+  }
+  
+  prev_e = e;
+}
+
+// //////////////
+
 // Threshold for acceptable speed
 int threshold = 50;
 
@@ -16,7 +97,7 @@ double elapsedTime;
 double pidError;
 double lastError;
 double input, output;
-double setPoint = 300; // 300 mm from the front wall;
+double setPoint = 800; // 800 mm from the front wall;
 double cumError, rateError;
 
 void resetPID()
@@ -97,7 +178,7 @@ void driveWithPID()
     }
     else
     {
-      drive(STOP, 0);
+      drive(ASTOP, 0);
     }
   }
   Serial.print("Input (TOF): ");
@@ -109,5 +190,4 @@ void driveWithPID()
   Serial.print("Elapsed time: ");
   Serial.println(elapsedTime);
   Serial.println("");
-  delay(50);
 }

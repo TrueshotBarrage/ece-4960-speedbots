@@ -49,13 +49,35 @@ def decode_sensor_deque(dq):
 
 
 # Generates a plot of the sensor data numpy array
-def plot_sensor_data(ndarr):
+def plot_sensor_data(ndarr, save_path=None):
     # cols = ["time", "dist_f", "gyr_z"]
-    cols = ["time", "gyr_z"]
+    cols = ["time", "dist_f"]
+    # cols = ["time", "gyr_z"]
     # df = pd.DataFrame(ndarr[:, [0, 2, 8]], columns=cols)
-    df = pd.DataFrame(ndarr[:, [0, 8]], columns=cols)
+    df = pd.DataFrame(ndarr[:, [0, 2]], columns=cols)
+    # df = pd.DataFrame(ndarr[:, [0, 8]], columns=cols)
     df.plot(x=cols[0], y=cols[1:], marker="o")
+
+    if save_path is not None:
+        plt.savefig(save_path, bbox_inches="tight")
     plt.show()
+
+    return df
+
+
+def plot_df(df, save_path=None):
+    df.plot(x=df.columns[0], y=list(df.columns[1:]), marker="o")
+
+    if save_path is not None:
+        plt.savefig(save_path, bbox_inches="tight")
+    plt.show()
+
+
+def convert_dist_to_vel(df, time_col="time", dist_col="dist_f"):
+    df["vel_f"] = df[dist_col].diff() / df[time_col].diff()
+    df.dropna(inplace=False)
+    df.drop(columns=[dist_col], inplace=False)
+    return df
 
 
 class RobotControl():
@@ -103,11 +125,11 @@ class RobotControl():
         #                       self.runtime_callback_handler)
 
     def start_recording(self):
-        # self.right_tof_readings = deque(maxlen=self.max_length)
-        # self.front_tof_readings = deque(maxlen=self.max_length)
-        # self.imu_readings = deque(maxlen=self.max_length)
+        self.right_tof_readings = deque(maxlen=self.max_length)
+        self.front_tof_readings = deque(maxlen=self.max_length)
+        self.imu_readings = deque(maxlen=self.max_length)
         self.sensor_readings = deque(maxlen=self.max_length)
-        # self.speed_readings = deque(maxlen=self.max_length)
+        self.speed_readings = deque(maxlen=self.max_length)
 
     def stop_recording(self):
         self.log_sensor_data()
@@ -237,3 +259,5 @@ class RobotControl():
 
     def stunt(self):
         self.ble.send_command(CMD.STUNT)
+        self.start_recording(
+        )  # Must call stop_recording() after the stunt stops

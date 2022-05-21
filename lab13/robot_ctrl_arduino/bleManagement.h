@@ -48,6 +48,7 @@ enum CommandTypes
   MOVE_LEFT,
   MOVE_RIGHT,
   MOVE_STOP,
+  MOVE_ASTOP,
   START_PID_300MM,
   STOP_PID_300MM,
   TOGGLE_DEBUG,
@@ -197,6 +198,16 @@ void writeSensorDataToBLE()
 
   // Write the sensor data string to the characteristic
   tx_sensor.writeValue(tx_sensor_value.c_str());
+
+  // Write the TOF readings into the appropriate characteristics
+  tx_tof_f.writeValue(tx_tof_f_value);
+  tx_tof_r.writeValue(tx_tof_r_value);
+
+  // Write IMU data into a string, separated by commas
+  tx_imu_value = packIMUDataIntoEString(&myICM);
+
+  // Write the IMU data string to the characteristic
+  tx_imu.writeValue(tx_imu_value.c_str());
 }
 
 void writeSpeedToBLE()
@@ -325,6 +336,16 @@ void handleCommand()
   {
     Serial.println("Stopping movement");
     drive(STOP, 0);
+    break;
+  }
+
+  /*
+   * Actively stop the robot from moving.
+   */
+  case MOVE_ASTOP:
+  {
+    Serial.println("Actively stopping movement");
+    drive(ASTOP, 0);
     break;
   }
 
@@ -472,10 +493,11 @@ void checkForConnections()
       if (pid_running)
       {
         driveWithPID();
+//        driveWithKF();
       }
       else if (stunt_running)
       {
-        stunt();
+        stunt(&iteration);
       }
       else if (spin_running) {
         spin360(&iteration, initSpeed);

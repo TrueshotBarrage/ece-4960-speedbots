@@ -10,8 +10,9 @@ class CMD(Enum):
     MOVE_LEFT = 4
     MOVE_RIGHT = 5
     MOVE_STOP = 6
-    START_PID_300MM = 7
-    STOP_PID_300MM = 8
-    TOGGLE_DEBUG = 9
-    STUNT = 10
-    SPIN_360 = 11
+    MOVE_ASTOP = 7
+    START_PID_300MM = 8
+    STOP_PID_300MM = 9
+    TOGGLE_DEBUG = 10
+    STUNT = 11
+    SPIN_360 = 12
